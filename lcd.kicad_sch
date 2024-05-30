@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "77caa2c6-00c7-478f-abfd-5898ace3f2f9")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers hide)
@@ -1575,6 +1575,18 @@
 		)
 	)
 	(junction
+		(at 165.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3256896e-5bbc-4327-9e68-eb3e52d26b89")
+	)
+	(junction
+		(at 187.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "504a30a6-4770-420a-af99-1f45637fd2d4")
+	)
+	(junction
 		(at 134.62 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1587,10 +1599,44 @@
 		(uuid "75809cb8-1fcf-4c3d-a7df-0d05b816ca96")
 	)
 	(junction
+		(at 195.58 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8b544b-48a2-4301-9aa1-2e14917ef339")
+	)
+	(junction
+		(at 187.96 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a2a0bf-f687-4087-bbc8-f14d4861059f")
+	)
+	(junction
+		(at 180.34 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79ba2d9-fd74-49ec-9296-4bd2d4f87139")
+	)
+	(junction
 		(at 157.48 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7f6ad6c-7c06-406d-9ca2-7325a0b18888")
+	)
+	(junction
+		(at 180.34 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f7b751-1b12-4956-b3c3-46485b52db32")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02622dbb-a45b-4fd3-977f-777523360fba")
 	)
 	(wire
 		(pts
@@ -1614,13 +1660,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 50.8) (xy 140.97 50.8)
+			(xy 180.34 41.91) (xy 180.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155ed01a-767b-4c62-b89f-f1238d42dc1e")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1eea181f-5bce-4cd7-9d7a-fc15aa53f8a7")
+	)
+	(wire
+		(pts
+			(xy 180.34 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c34215-7051-41f2-9d19-86d2bdee42c5")
 	)
 	(wire
 		(pts
@@ -1634,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 140.97 71.12)
+			(xy 135.89 71.12) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1674,6 +1740,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 50.8) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377b7755-27ce-40af-85d6-c30b07fec188")
+	)
+	(wire
+		(pts
 			(xy 123.19 104.14) (xy 134.62 104.14)
 		)
 		(stroke
@@ -1691,6 +1767,26 @@
 			(type default)
 		)
 		(uuid "4aef3f02-fcc5-40f1-bb95-d476e5b01ae0")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c59958f-ee3b-46e2-a591-fcadf464cbad")
+	)
+	(wire
+		(pts
+			(xy 195.58 67.31) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6198e5-f8a1-42eb-bbe0-32de23d49ee7")
 	)
 	(wire
 		(pts
@@ -1744,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 27.94) (xy 165.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774777d6-c744-4440-8978-ee4f5cf256b1")
+	)
+	(wire
+		(pts
 			(xy 135.89 76.2) (xy 140.97 76.2)
 		)
 		(stroke
@@ -1781,6 +1887,16 @@
 			(type default)
 		)
 		(uuid "98e215a2-2e66-4cfd-89bf-74c7d2764618")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 187.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9935316f-d98f-4bec-ab2c-c6363c272131")
 	)
 	(wire
 		(pts
@@ -1824,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 140.97 53.34)
+			(xy 135.89 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1851,6 +1967,46 @@
 			(type default)
 		)
 		(uuid "daef64a5-bd27-4ddf-bc5a-77013c8c337d")
+	)
+	(wire
+		(pts
+			(xy 195.58 59.69) (xy 195.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfef6dd-551e-439f-8ee7-0b77a0cc5e55")
+	)
+	(wire
+		(pts
+			(xy 195.58 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc96db34-c883-49b9-b2f5-9caaae4c6284")
+	)
+	(wire
+		(pts
+			(xy 187.96 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e022e7e3-aeab-4c94-9e01-a620e8eb33ca")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50ca2bb-cd7b-4905-974c-eeae9e8a7dad")
 	)
 	(wire
 		(pts
@@ -1882,7 +2038,7 @@
 		)
 		(uuid "ff3b16ba-1c1b-40cd-909b-8efdd7ceae21")
 	)
-	(text_box "possible CTP wil be i2c - provide provision\n\n1.3.3V\n2 GND \n3 Chip select - PB1\n4 Reset - PB10\n"
+	(text_box "possible CTP wil be i2c - provide provision\n\n1.3.3V\n2 GND \n3 Chip select - PB1\n4 Reset - PB10\n\nconnect 2mm from top edge centered \n\nDimensions \n  width 55.5mm 89.5 \n  holes 3.3 mm D  \n  		83.5mm  x 49.0mm\n        x3.25 and 52.25 mm\n		y (89.5 /2) - (83.5 /2) = 3 \n\n89.5\n"
 		(exclude_from_sim no)
 		(at 299.72 138.43 0)
 		(size 105.41 111.76)
@@ -1927,7 +2083,7 @@
 	)
 	(hierarchical_label "T_CS"
 		(shape input)
-		(at 140.97 71.12 0)
+		(at 201.93 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2035,7 +2191,7 @@
 	)
 	(hierarchical_label "LCD_RESET"
 		(shape input)
-		(at 140.97 53.34 0)
+		(at 201.93 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2047,7 +2203,7 @@
 	)
 	(hierarchical_label "LCD_CS"
 		(shape input)
-		(at 140.97 50.8 0)
+		(at 201.93 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2184,6 +2340,119 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b2a8772-fd07-43b2-a0a8-88a4d969c63b")
+		(property "Reference" "R39"
+			(at 197.612 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 195.58 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254.762 121.92 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 122.555 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RMCF0603JT10K0"
+			(at 77.47 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DIGI"
+			(at 77.47 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "RMCF0603JT10K0CT-ND"
+			(at 77.47 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "StackPole"
+			(at 77.47 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af97e4c-e19a-40f9-9f11-3bbc79ba6ab3")
+		)
+		(pin "2"
+			(uuid "a5bb7479-2d79-4735-8e55-3aa26da2f3b6")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2439,6 +2708,119 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90ff3e6e-9f8a-41c3-a00f-b8703ac67767")
+		(property "Reference" "R38"
+			(at 189.992 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 187.96 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.142 104.14 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 104.775 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RMCF0603JT10K0"
+			(at 69.85 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DIGI"
+			(at 69.85 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "RMCF0603JT10K0CT-ND"
+			(at 69.85 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "StackPole"
+			(at 69.85 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "109bd20f-f4d6-4f03-a35d-6ef3e75282b9")
+		)
+		(pin "2"
+			(uuid "df6958c9-c6f2-4679-b91a-23a6c3db4a63")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2807,6 +3189,119 @@
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c23fe114-490b-458f-814a-882f73b490a6")
+		(property "Reference" "R37"
+			(at 182.372 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 180.34 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 239.522 104.14 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 104.775 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RMCF0603JT10K0"
+			(at 62.23 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DIGI"
+			(at 62.23 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "RMCF0603JT10K0CT-ND"
+			(at 62.23 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "StackPole"
+			(at 62.23 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "471587a6-5f68-489c-94a7-718f57ee3529")
+		)
+		(pin "2"
+			(uuid "a83e00bb-d33a-4c9e-9243-ffd6e7f0aa04")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "R37")
 					(unit 1)
 				)
 			)

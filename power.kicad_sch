@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "1cf15457-4859-483d-a63b-4ae322c064c2")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -1808,6 +1808,12 @@
 		(uuid "1096b410-81e0-42f9-b7b1-77b2a4e23c55")
 	)
 	(junction
+		(at 283.21 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19e84f43-9281-42b9-be90-83c5344aa9af")
+	)
+	(junction
 		(at 210.82 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1826,10 +1832,22 @@
 		(uuid "49d8f952-94e6-4c9e-a7f1-4fa09dc7bec1")
 	)
 	(junction
+		(at 261.62 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "513b63cd-9382-4d8d-a425-31544d42d5b4")
+	)
+	(junction
 		(at 127 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "984704a8-5cb6-4547-b8cd-bf43362b7cf0")
+	)
+	(junction
+		(at 273.05 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09afebe-0ef4-4bea-91e8-938d8c099b70")
 	)
 	(junction
 		(at 223.52 138.43)
@@ -1907,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 185.42) (xy 281.94 185.42)
+			(xy 232.41 185.42) (xy 273.05 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2027,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 182.88) (xy 281.94 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f44510-3f90-4ff4-8f0d-09fbd6da7b03")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 116.84 101.6)
 		)
 		(stroke
@@ -2054,6 +2082,16 @@
 			(type default)
 		)
 		(uuid "7595ed11-358b-4a8d-a41d-330cc7f32fd7")
+	)
+	(wire
+		(pts
+			(xy 273.05 177.8) (xy 273.05 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a2ce78-c1fa-4ec6-a86b-9074dc37fcfe")
 	)
 	(wire
 		(pts
@@ -2127,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 177.8) (xy 261.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941ec6ce-1d10-450c-98f2-ceae7c3b6937")
+	)
+	(wire
+		(pts
 			(xy 231.14 138.43) (xy 246.38 138.43)
 		)
 		(stroke
@@ -2147,6 +2195,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 144.78) (xy 283.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a945f192-70b9-45ac-b2ef-828de8781837")
+	)
+	(wire
+		(pts
 			(xy 182.88 170.18) (xy 182.88 185.42)
 		)
 		(stroke
@@ -2164,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "abac6ef2-fac2-4722-9de6-ad2701947e1a")
+	)
+	(wire
+		(pts
+			(xy 283.21 138.43) (xy 283.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd318ec4-dd5e-441f-8cad-313326ff85f9")
 	)
 	(wire
 		(pts
@@ -2237,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 182.88) (xy 281.94 182.88)
+			(xy 232.41 182.88) (xy 261.62 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2314,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "ee95ef29-7494-4e12-96c7-4e6774015e0d")
+	)
+	(wire
+		(pts
+			(xy 273.05 185.42) (xy 281.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cc59bb-0a59-4822-8fd1-aef2c1ef626b")
 	)
 	(wire
 		(pts
@@ -2543,6 +2621,109 @@
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cff3b2a-e141-4133-88ac-68a685a3aa0a")
+		(property "Reference" "TP6"
+			(at 257.175 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V ISO"
+			(at 252.095 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 261.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V ISO"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "DNP"
+			(at 407.035 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DNP"
+			(at 407.035 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "DNP"
+			(at 407.035 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 407.035 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bbe61ea-94c3-4b3c-8e6f-d368bb90aca2")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2954,6 +3135,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740eed46-8748-48f5-8825-57caf67c8a8c")
+		(property "Reference" "TP7"
+			(at 268.605 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND ISO"
+			(at 263.525 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 273.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND ISO"
+			(at 273.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "DNP"
+			(at 418.465 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DNP"
+			(at 418.465 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "DNP"
+			(at 418.465 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 418.465 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce5f511-9ef1-46e8-92fc-9a4754953d6d")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 127 144.78 0)
 		(unit 1)
@@ -3151,7 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "+5V"
 			(at 148.59 170.18 0)
 			(effects
 				(font
@@ -3447,6 +3731,109 @@
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 281.94 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af8e86ce-cfd6-456e-87ef-7f25a46eb7f3")
+		(property "Reference" "TP2"
+			(at 277.495 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 272.415 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+3.3V"
+			(at 281.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "DNP"
+			(at 427.355 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DNP"
+			(at 427.355 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "DNP"
+			(at 427.355 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 427.355 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2683fd-24a4-4763-a499-12f6faed8b6a")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B0505S-1WR2_MNS"
+		(property "Footprint" "dnt:B0505S-1WR2_MNS"
 			(at 191.77 182.88 0)
 			(effects
 				(font

@@ -3,9 +3,9 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8d063f79-9282-4820-bcf4-1ff3c006cf08")
-	(paper "A3")
+	(paper "A4")
 	(title_block
-		(date "2022-04-09")
+		(date "2024-05-30")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x06"
