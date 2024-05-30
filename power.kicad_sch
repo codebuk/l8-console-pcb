@@ -3700,7 +3700,7 @@
 	)
 	(text_box "base resistor?"
 		(exclude_from_sim no)
-		(at 41.91 92.71 0)
+		(at 43.18 85.09 0)
 		(size 52.07 19.05)
 		(stroke
 			(width 0)
