@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "rusefi_pesd1can")(type "Legacy")(uri "${KIPRJMOD}/rusefi_lib/pesd1can.lib")(options "")(descr "PESD1CAN CAN bus protection diode"))
   (lib (name "l8-kicad-rescue")(type "KiCad")(uri "${KIPRJMOD}/l8-kicad-rescue.kicad_sym")(options "")(descr ""))
 )
