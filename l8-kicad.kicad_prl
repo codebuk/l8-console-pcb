@@ -96,12 +96,12 @@
       },
       {
         "name": "l8-kicad.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 4398,
-          "pos_y": 366,
+          "pos_x": 616,
+          "pos_y": 186,
           "size_x": 2005,
           "size_y": 1608
         }

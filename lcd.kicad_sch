@@ -1366,7 +1366,94 @@
 				)
 			)
 		)
-		(symbol "power:VDD"
+		(symbol "l8-kicad-rescue:PWR_FLAG-power"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG-power_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1383,7 +1470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VDD"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1409,7 +1496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1427,7 +1514,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VDD_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1465,7 +1552,7 @@
 					)
 				)
 			)
-			(symbol "VDD_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1494,6 +1581,12 @@
 		(uuid "694f4fce-ff5f-4cd0-8cbb-ef72fb54ee39")
 	)
 	(junction
+		(at 153.67 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75809cb8-1fcf-4c3d-a7df-0d05b816ca96")
+	)
+	(junction
 		(at 157.48 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1511,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 140.97 45.72)
+			(xy 135.89 45.72) (xy 153.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1568,6 +1661,16 @@
 			(type default)
 		)
 		(uuid "2d2378a6-684e-4742-adc2-3c921414347b")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ec5ee4-8893-43e1-8eda-8bd2f96f42ad")
 	)
 	(wire
 		(pts
@@ -1681,6 +1784,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 27.94) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9cd4a7-5890-4073-b8c0-f2aa9a42830a")
+	)
+	(wire
+		(pts
+			(xy 153.67 27.94) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b50ce0-2613-479c-b462-183fab56e89c")
+	)
+	(wire
+		(pts
 			(xy 135.89 63.5) (xy 140.97 63.5)
 		)
 		(stroke
@@ -1688,6 +1811,16 @@
 			(type default)
 		)
 		(uuid "b18b6185-af68-4115-9eed-5c4ace0691b8")
+	)
+	(wire
+		(pts
+			(xy 153.67 27.94) (xy 165.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6da6986-763b-4044-9a3a-a5db478d8659")
 	)
 	(wire
 		(pts
@@ -1711,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 27.94) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daef64a5-bd27-4ddf-bc5a-77013c8c337d")
+	)
+	(wire
+		(pts
 			(xy 165.1 83.82) (xy 165.1 86.36)
 		)
 		(stroke
@@ -1718,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "eabe789a-84d7-46c6-a84a-06610a111155")
-	)
-	(wire
-		(pts
-			(xy 165.1 31.75) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb8e18b-a086-4bdc-98a1-e620ed6ea103")
 	)
 	(wire
 		(pts
@@ -1749,10 +1882,10 @@
 		)
 		(uuid "ff3b16ba-1c1b-40cd-909b-8efdd7ceae21")
 	)
-	(text_box "- possible CTP wil be i2c - provide provision\n\n1.3.3V\n2 GND \n3 Chip select - PB1\n4 Reset - PB10\n"
+	(text_box "possible CTP wil be i2c - provide provision\n\n1.3.3V\n2 GND \n3 Chip select - PB1\n4 Reset - PB10\n"
 		(exclude_from_sim no)
-		(at 39.37 187.96 0)
-		(size 208.28 111.76)
+		(at 299.72 138.43 0)
+		(size 105.41 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -1888,18 +2021,6 @@
 		)
 		(uuid "7ad8eca6-78ee-4faf-82f5-e7f4b2d22def")
 	)
-	(hierarchical_label "LCD_POWER"
-		(shape input)
-		(at 140.97 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d7f29c4-510d-4e00-88ba-a01e5230f39f")
-	)
 	(hierarchical_label "LCD_SCK"
 		(shape input)
 		(at 140.97 60.96 0)
@@ -1935,6 +2056,72 @@
 			(justify left)
 		)
 		(uuid "fc206e3d-7e00-4bc6-9b89-0f7992135a30")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 148.59 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "049d053a-e0ee-4201-83e4-3cbaa789d606")
+		(property "Reference" "#PWR034"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650f9267-840c-4293-8ae0-71f302f4af2d")
+		)
+		(instances
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
@@ -2011,7 +2198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23aa275c-b7fe-4d53-af6d-e5fd42ef3fd5")
-		(property "Reference" "D?"
+		(property "Reference" "D9"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -2073,73 +2260,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 165.1 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "528bbeb8-fb96-451b-ac3d-653649da98a2")
-		(property "Reference" "#PWR07"
-			(at 165.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 165.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5511cd2-22fa-4e99-acf2-ea92b814fe16")
-		)
-		(instances
-			(project ""
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "#PWR07")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "856255c5-23e5-4076-b48f-c50af68e13f0")
-		(property "Reference" "R?"
+		(property "Reference" "R32"
 			(at 119.38 97.79 90)
 			(effects
 				(font
@@ -2273,7 +2394,73 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "R?")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "l8-kicad-rescue:PWR_FLAG-power")
+		(at 148.59 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afeb6f77-bb41-40b6-8be3-d7479e540f84")
+		(property "Reference" "#FLG01"
+			(at 148.59 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "power_PWR_FLAG"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46203f84-748a-4f00-8b43-ec18227c1270")
+		)
+		(instances
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b450de4d-614b-4387-803b-007ec7542c9f")
-		(property "Reference" "Q?"
+		(property "Reference" "Q4"
 			(at 161.29 102.8699 0)
 			(effects
 				(font
@@ -2358,7 +2545,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "Q?")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2477,7 +2664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f232f8e9-b072-4ece-8286-5b745459d384")
-		(property "Reference" "R?"
+		(property "Reference" "R34"
 			(at 162.56 90.17 90)
 			(effects
 				(font
@@ -2574,7 +2761,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "R?")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28398ab-5959-4619-917a-3c392ee6457c")
-		(property "Reference" "R?"
+		(property "Reference" "R33"
 			(at 137.16 114.2999 0)
 			(effects
 				(font
@@ -2644,7 +2831,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "R?")
+					(reference "R33")
 					(unit 1)
 				)
 			)

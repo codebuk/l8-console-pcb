@@ -635,16 +635,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc2a3ee-ea4d-4091-bac6-1653e68a9846")
-	)
-	(wire
-		(pts
 			(xy 375.92 201.93) (xy 396.24 201.93)
 		)
 		(stroke
@@ -712,17 +702,6 @@
 			)
 		)
 		(uuid "b2a6b5f5-9baf-4e90-83a6-0a823ec01c4d")
-	)
-	(label "SENSOR_ON"
-		(at 53.34 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06115ce6-ab2e-48b9-87c1-c6c62172436e")
 	)
 	(label "SPI1_IRQ"
 		(at 92.71 228.6 0)
@@ -834,17 +813,6 @@
 		)
 		(uuid "3dbcacad-97b2-4fd4-a9e4-de5c13c86a8f")
 	)
-	(label "VDD_LCD"
-		(at 93.98 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fa9b2bc-e336-4e6e-9807-c7255162e99c")
-	)
 	(label "SPI4_SDI"
 		(at 212.09 205.74 0)
 		(fields_autoplaced yes)
@@ -943,17 +911,6 @@
 			(justify left bottom)
 		)
 		(uuid "58cda2d4-9548-47f0-9bf6-1dffabedba22")
-	)
-	(label "VDD"
-		(at 194.31 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eabb506-d9f0-45a1-bcba-e406c9123a67")
 	)
 	(label "SPI2_IRQ"
 		(at 92.71 247.65 0)
@@ -1131,17 +1088,6 @@
 		)
 		(uuid "8c37fb44-3c5d-43f5-817a-bb659c986502")
 	)
-	(label "5V"
-		(at 93.98 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93584328-4d04-4d43-9e16-e1df811abb38")
-	)
 	(label "SPI3_SDO"
 		(at 212.09 172.72 0)
 		(fields_autoplaced yes)
@@ -1164,17 +1110,6 @@
 		)
 		(uuid "991d3110-4cd8-4e88-adc6-d536d0a9a44c")
 	)
-	(label "VDD_LCD"
-		(at 95.25 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99b1bdd9-fef5-4d27-9410-2a3b98ea1df6")
-	)
 	(label "LCD_RESET"
 		(at 95.25 81.28 0)
 		(fields_autoplaced yes)
@@ -1196,17 +1131,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2d44906-0fa4-4626-a68e-fa3ecf15122b")
-	)
-	(label "VDD"
-		(at 53.34 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4d2e287-568b-4142-8374-a2be8ff7a1d2")
 	)
 	(label "SPI4_IRQ"
 		(at 212.09 210.82 0)
@@ -1318,16 +1242,15 @@
 		)
 		(uuid "c32883bf-1099-4a56-9c8f-338e53a1789b")
 	)
-	(label "VDD"
-		(at 93.98 170.18 0)
-		(fields_autoplaced yes)
+	(label "LCD_ON"
+		(at 53.34 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "cb4b2bab-cfab-46e7-b1d2-87acbc67d4c0")
+		(uuid "c9c2983d-a5e5-4c05-930d-ee6e73871b14")
 	)
 	(label "SPI1_SDO"
 		(at 212.09 124.46 0)
@@ -1383,17 +1306,6 @@
 			(justify right bottom)
 		)
 		(uuid "d59dc7c5-2566-49b1-9389-52c597b8fb19")
-	)
-	(label "VDD_SENSOR"
-		(at 93.98 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da65603f-3c7c-4ae3-9385-fe6cc40abf08")
 	)
 	(label "VBATT"
 		(at 53.34 167.64 180)
@@ -1472,17 +1384,6 @@
 		)
 		(uuid "eca465f9-4a65-4ea4-ac25-1d0f2b9e9a4d")
 	)
-	(label "SENSOR_VDD"
-		(at 52.07 217.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef19a923-ba77-4e52-a4b7-a787712e3d13")
-	)
 	(label "SPI2_IRQ2"
 		(at 92.71 250.19 0)
 		(fields_autoplaced yes)
@@ -1516,16 +1417,15 @@
 		)
 		(uuid "f2445d37-6b22-4907-99ea-8695fe34ab9c")
 	)
-	(label "LCD_ON"
-		(at 53.34 172.72 180)
-		(fields_autoplaced yes)
+	(label "SENSOR_ON"
+		(at 52.07 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f5b6eac6-4dea-446a-9aa0-b40059632a05")
+		(uuid "f5bbb08b-4f7f-415e-9db3-eb3070b95e72")
 	)
 	(label "SPI1_SCK"
 		(at 212.09 119.38 0)
@@ -2001,16 +1901,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VDD" input
-			(at 194.31 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2fb51f3d-e2ae-4604-8a9b-ae3055d0622d")
-		)
 		(pin "SPI1_SCK" output
 			(at 212.09 119.38 0)
 			(effects
@@ -2359,16 +2249,6 @@
 			)
 			(uuid "9d4588e3-175f-48d5-b264-694d39c2a5d6")
 		)
-		(pin "VDD" input
-			(at 53.34 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "30d229dc-8e9f-4c75-8b0a-bdbfec088548")
-		)
 		(pin "GND_ISO" input
 			(at 53.34 143.51 180)
 			(effects
@@ -2487,16 +2367,6 @@
 			)
 			(uuid "8506c858-afb0-45c4-9079-7fed191940f4")
 		)
-		(pin "SENSOR_VDD" input
-			(at 52.07 217.17 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cfb8b2d0-001e-4d76-b174-7a1d4341d4f1")
-		)
 		(pin "IIS3DHHCTR_SDO" input
 			(at 92.71 240.03 0)
 			(effects
@@ -2586,6 +2456,16 @@
 				(justify right)
 			)
 			(uuid "125e2572-9ea4-4f53-af44-754bf1924536")
+		)
+		(pin "SENSOR_ON" input
+			(at 52.07 222.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "562591e8-9e05-4cb8-8cdf-70d2696922c6")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2745,15 +2625,15 @@
 			)
 			(uuid "25252fb2-cbcf-4dc9-b88e-872c498d6f6d")
 		)
-		(pin "LCD_POWER" input
-			(at 95.25 36.83 0)
+		(pin "LCD_ON" input
+			(at 53.34 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "868d5092-e900-45d2-bb4f-18946c790843")
+			(uuid "541de913-2282-4f12-8400-48f028102831")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2813,26 +2693,6 @@
 			)
 			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
 		)
-		(pin "VDD" output
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3a1d4835-b1cb-460c-95a0-23c46e662b91")
-		)
-		(pin "5V" output
-			(at 93.98 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0f9c6c9f-5d0d-46fa-b423-d26c8a4fb535")
-		)
 		(pin "VBATT" input
 			(at 53.34 167.64 180)
 			(effects
@@ -2842,46 +2702,6 @@
 				(justify left)
 			)
 			(uuid "a544fca6-c259-4f85-b494-405b0961e0e7")
-		)
-		(pin "VDD_LCD_ON" input
-			(at 53.34 172.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3c726d6c-1dcb-4900-b0f8-496fd6ef2cca")
-		)
-		(pin "VDD_SENSOR_ON" input
-			(at 53.34 177.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6dc5f58a-5592-4790-9fb7-68051de1a324")
-		)
-		(pin "VDD_SENSOR" output
-			(at 93.98 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "69638f21-f7fe-432b-b3ab-cc162195a9c3")
-		)
-		(pin "VDD_LCD" output
-			(at 93.98 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9ed3dbaa-ed8a-4655-9491-ab5d160a040b")
 		)
 		(instances
 			(project "l8-kicad"
