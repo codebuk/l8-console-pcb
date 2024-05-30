@@ -1244,6 +1244,7 @@
 	)
 	(label "LCD_ON"
 		(at 53.34 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,6 +1420,7 @@
 	)
 	(label "SENSOR_ON"
 		(at 52.07 222.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

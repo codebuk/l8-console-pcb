@@ -3791,6 +3791,119 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 73.66 128.27 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d20840e-0585-4c29-a20f-fd8f06bf456b")
+		(property "Reference" "R2"
+			(at 75.692 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 73.66 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.842 186.69 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 187.325 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RMCF0603JT10K0"
+			(at -29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND" "DIGI"
+			(at -29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VEND#" "RMCF0603JT10K0CT-ND"
+			(at -29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "StackPole"
+			(at -29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce394b29-0b20-48b3-9aa0-4dd561600589")
+		)
+		(pin "2"
+			(uuid "c30e6a76-3de6-4f87-b8fe-7e46fb068b15")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 246.38 87.63 0)
 		(mirror x)
 		(unit 1)
@@ -4126,76 +4239,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7db48e9f-8bd3-4f96-855b-c5ae0daa8519")
-		(property "Reference" "R14"
-			(at 76.2 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 76.2 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.882 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc26c44a-26b2-4ab6-b4cb-02f52de9081a")
-		)
-		(pin "2"
-			(uuid "99ad6691-4bb2-4260-8f67-18fcba8dfc31")
-		)
-		(instances
-			(project ""
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5142,7 +5185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IIS3DHHCTR:IC_IIS3DHHCTR"
+		(property "Footprint" "dnt:CCLGA-16L_5X5X1P7_STM"
 			(at 92.71 59.69 0)
 			(effects
 				(font

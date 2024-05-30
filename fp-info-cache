@@ -1,4 +1,4 @@
-23740647052881243
+23742339026096096
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96740,6 +96740,13 @@ Varistor VF
 2
 2
 dnt
+B0505S-1WR2_MNS
+
+B0505S-1WR2 
+0
+4
+4
+dnt
 Buzzer_9x9.5RM5.0
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
 buzzer
@@ -96781,31 +96788,31 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
-footprints
-B0505S-1WR2_MNS
-
-B0505S-1WR2 
+dnt
+USB-MINI-B-HORIZONTAL
+USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/2486_01.pdf
+USB USB_B USB_Mini connector
 0
-4
-4
-footprints
-CON14_2X7_DUK_FTSH_SAI
-
-FTSH-107-01-F-DV-K 
+9
+6
+dnt
+USB-MINI-B-VERTICAL
+http://www.tensility.com/pdffiles/54-00023.pdf
+usb mini receptacle vertical
 0
-14
-14
-footprints
-CON14_2X7_DUK_FTSH_SAI-L
-
-FTSH-107-01-F-DV-K 
+7
+6
+dnt
+USB_B-VERTICAL
+http://www.mouser.com/ds/2/418/NG_CD_5787834_A4-669110.pdf
+USB_B USB B vertical female connector
 0
-14
-14
-footprints
-CON14_2X7_DUK_FTSH_SAI-M
+6
+5
+dnt
+polotest
 
-FTSH-107-01-F-DV-K 
+
 0
-14
-14
+0
+0
