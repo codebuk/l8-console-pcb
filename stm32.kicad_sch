@@ -2317,7 +2317,6 @@
 					(alternate "ADC1_IN14" bidirectional line)
 					(alternate "ADC2_IN14" bidirectional line)
 					(alternate "ETH_RXD0" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 22.86 -35.56 180)
@@ -3160,7 +3159,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2C3_SCL" bidirectional line)
-					(alternate "" input line)
 					(alternate "RCC_MCO_1" bidirectional line)
 					(alternate "TIM1_CH1" bidirectional line)
 					(alternate "USART1_CK" bidirectional line)
@@ -8880,6 +8878,7 @@
 	)
 	(label "PB9"
 		(at 186.69 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9082,6 +9081,7 @@
 	)
 	(label "PB12"
 		(at 186.69 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9275,6 +9275,7 @@
 	)
 	(label "PB11"
 		(at 186.69 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9410,6 +9411,7 @@
 	)
 	(label "PB10"
 		(at 186.69 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9420,6 +9422,7 @@
 	)
 	(label "PB8"
 		(at 186.69 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
