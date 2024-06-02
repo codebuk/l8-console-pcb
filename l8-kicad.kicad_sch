@@ -1600,7 +1600,7 @@
 			(uuid "7d76b045-cf44-4b61-8efb-e1af233b5b0a")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "J3")
 					(unit 1)
@@ -1732,7 +1732,7 @@
 			(uuid "5c1c33d5-d31e-46d2-bc0c-a0906754dd46")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "#PWR018")
 					(unit 1)
@@ -1798,7 +1798,7 @@
 			)
 		)
 		(instances
-			(project "micro_rusEFI"
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "H1")
 					(unit 1)
