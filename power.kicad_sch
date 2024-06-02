@@ -2552,7 +2552,7 @@
 			(uuid "a3972833-aeb0-4b8a-a6bb-1ec68ea5485a")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "D1")
 					(unit 1)
@@ -2618,7 +2618,7 @@
 			(uuid "d04df7e7-eb9d-4343-8bd4-3732fec1d3a9")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR031")
 					(unit 1)
@@ -2787,7 +2787,7 @@
 			(uuid "2e29525e-8f06-4991-b2b0-63baf4bc2216")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR016")
 					(unit 1)
@@ -2863,7 +2863,7 @@
 			(uuid "107129cd-f1c9-4d8f-9242-c07529a2bfd7")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "D2")
 					(unit 1)
@@ -2927,7 +2927,7 @@
 			(uuid "cd46a602-013c-4adb-b109-5cfac6774034")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR015")
 					(unit 1)
@@ -3051,7 +3051,7 @@
 			(uuid "aeab1f4f-d115-4363-a46c-c3bdf5135de3")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "C6")
 					(unit 1)
@@ -3294,7 +3294,7 @@
 			(uuid "f7a4eaa1-c18c-4328-8b6a-6e57f6180f34")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR02")
 					(unit 1)
@@ -3381,7 +3381,7 @@
 			(uuid "9f5669ef-9b7f-4389-8588-47c7ce952218")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "D3")
 					(unit 1)
@@ -3550,7 +3550,7 @@
 			(uuid "8b575c8f-cbc7-46cf-a6d8-0cad96d3b61b")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR032")
 					(unit 1)
@@ -3662,7 +3662,7 @@
 			(uuid "33f3c7a4-3cc2-4950-8f94-69e61536e8b3")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "R4")
 					(unit 1)
@@ -3728,7 +3728,7 @@
 			(uuid "b4c278ed-6828-4e82-acd0-4c7f3e77284d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#FLG04")
 					(unit 1)
@@ -3897,7 +3897,7 @@
 			(uuid "651caf76-c90f-491c-8118-dffbe82e5db5")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR019")
 					(unit 1)
@@ -4141,7 +4141,7 @@
 			(uuid "78e1d424-6933-4b24-a7f4-b72893beaec1")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR011")
 					(unit 1)
@@ -4205,7 +4205,7 @@
 			(uuid "dc7480a5-7d27-4f1f-aab5-ec8a2d093c87")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR012")
 					(unit 1)
@@ -4279,7 +4279,7 @@
 			(uuid "ad9d56ad-b77f-460a-8fc2-0e0d2931266f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "PS1")
 					(unit 1)
@@ -4391,7 +4391,7 @@
 			(uuid "c1382b71-b8c1-4acf-a2f4-5cfc5d3ba960")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "C5")
 					(unit 1)
@@ -4476,7 +4476,7 @@
 			(uuid "8842100a-4697-45ce-9045-051ea77bec62")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "C7")
 					(unit 1)
@@ -4552,7 +4552,7 @@
 			(uuid "9523e4b2-6348-4507-9a46-6917c1c44e12")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "U1")
 					(unit 1)
@@ -4635,7 +4635,7 @@
 			(uuid "58480efd-7437-4896-b09d-fc884d67ae32")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "U22")
 					(unit 1)
@@ -4699,7 +4699,7 @@
 			(uuid "65c023ad-5024-4bbd-9733-2167d31ee9d4")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR014")
 					(unit 1)
@@ -4765,7 +4765,7 @@
 			(uuid "ef2fb3ef-c422-43b9-8315-504a211e482a")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "micro_rusEFI"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR01")
 					(unit 1)

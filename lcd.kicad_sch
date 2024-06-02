@@ -2271,7 +2271,7 @@
 			(uuid "650f9267-840c-4293-8ae0-71f302f4af2d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#PWR034")
 					(unit 1)
@@ -2997,7 +2997,7 @@
 			(uuid "46203f84-748a-4f00-8b43-ec18227c1270")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#FLG01")
 					(unit 1)
@@ -3186,7 +3186,7 @@
 			(uuid "72d09d13-fb14-4cc2-989f-81f452ec8e81")
 		)
 		(instances
-			(project "l8-kicad"
+			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "J2")
 					(unit 1)
