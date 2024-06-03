@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8d063f79-9282-4820-bcf4-1ff3c006cf08")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(date "2024-05-30")
 	)
@@ -1519,6 +1519,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 388.62 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 388.62 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1581,6 +1599,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 370.84 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 370.84 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6661105-3604-45b1-8886-0a161123d42b")
 		)
@@ -1600,7 +1636,7 @@
 			(uuid "7d76b045-cf44-4b61-8efb-e1af233b5b0a")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "J3")
 					(unit 1)
@@ -1657,6 +1693,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 393.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 393.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 393.7 245.11 0)
 			(effects
 				(font
@@ -1732,7 +1786,7 @@
 			(uuid "5c1c33d5-d31e-46d2-bc0c-a0906754dd46")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "#PWR018")
 					(unit 1)
@@ -1797,8 +1851,26 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 398.78 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 398.78 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "micro_rusEFI"
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "H1")
 					(unit 1)
@@ -1855,6 +1927,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 403.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 403.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 403.86 245.11 0)
 			(effects
 				(font

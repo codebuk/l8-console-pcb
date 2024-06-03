@@ -2271,7 +2271,7 @@
 			(uuid "650f9267-840c-4293-8ae0-71f302f4af2d")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#PWR034")
 					(unit 1)
@@ -2443,6 +2443,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5af97e4c-e19a-40f9-9f11-3bbc79ba6ab3")
 		)
@@ -2512,6 +2530,24 @@
 			)
 		)
 		(property "LCSC" "C72038"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -2624,6 +2660,24 @@
 			)
 		)
 		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2811,6 +2865,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "109bd20f-f4d6-4f03-a35d-6ef3e75282b9")
 		)
@@ -2924,6 +2996,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bfe0ca1-bab5-4f19-802f-6bc0c9fd2d2b")
 		)
@@ -2997,7 +3087,7 @@
 			(uuid "46203f84-748a-4f00-8b43-ec18227c1270")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#FLG01")
 					(unit 1)
@@ -3065,6 +3155,24 @@
 		)
 		(property "LCSC" " C20917"
 			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,6 +3251,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "24a69df6-8e97-4c4b-951a-a743fa6daadf")
 		)
@@ -3186,7 +3312,7 @@
 			(uuid "72d09d13-fb14-4cc2-989f-81f452ec8e81")
 		)
 		(instances
-			(project ""
+			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "J2")
 					(unit 1)
@@ -3284,6 +3410,24 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -3396,6 +3540,24 @@
 			)
 		)
 		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 165.1 90.17 0)
 			(effects
 				(font

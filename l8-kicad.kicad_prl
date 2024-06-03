@@ -12,7 +12,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.699999988079071
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -67,8 +67,8 @@
       39,
       40
     ],
-    "visible_layers": "000ffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "ffcfdf4_7ffffff9",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
@@ -81,19 +81,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "l8-kicad.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 4645,
-          "pos_y": 350,
-          "size_x": 2005,
-          "size_y": 1608
-        }
-      }
-    ]
+    "files": []
   }
 }
