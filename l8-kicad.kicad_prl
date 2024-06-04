@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -83,27 +83,27 @@
   "project": {
     "files": [
       {
-        "name": "l8-kicad.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 5062,
-          "pos_y": 188,
-          "size_x": 953,
-          "size_y": 1026
-        }
-      },
-      {
         "name": "l8-kicad.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 4645,
           "pos_y": 350,
           "size_x": 2005,
           "size_y": 1608
+        }
+      },
+      {
+        "name": "l8-kicad.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 5062,
+          "pos_y": 188,
+          "size_x": 953,
+          "size_y": 1026
         }
       }
     ]
