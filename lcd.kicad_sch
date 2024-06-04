@@ -998,7 +998,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "hellen-one-common:SOT-23"
+			(property "Footprint" ""
 				(at 6.35 -1.905 0)
 				(effects
 					(font
@@ -1020,7 +1020,7 @@
 				)
 			)
 			(property "Description" "Generic N-Channel Power MOSFET"
-				(at 0 0 0)
+				(at 3.556 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3144,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 3.1A 112mΩ@4.5V,2.8A 1V@250uA 1PCSPChannel SOT-23 MOSFETs ROHS"
+		(property "Description" "Generic N-Channel Power MOSFET"
 			(at 154.94 104.14 0)
 			(effects
 				(font

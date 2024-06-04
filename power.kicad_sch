@@ -1253,7 +1253,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1262,7 +1262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf"
+			(property "Datasheet" ""
 				(at 10.16 -8.89 0)
 				(effects
 					(font
@@ -1271,7 +1271,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Compact AC/DC board mount power module 12W 5V"
+			(property "Description" "5V PS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4100,7 +4100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Compact AC/DC board mount power module 12W 5V"
+		(property "Description" "5V PS"
 			(at 121.92 100.33 0)
 			(effects
 				(font

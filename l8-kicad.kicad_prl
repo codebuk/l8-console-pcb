@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -67,7 +67,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcfdf4_7ffffff9",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -84,7 +84,7 @@
     "files": [
       {
         "name": "l8-kicad.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -96,10 +96,10 @@
       },
       {
         "name": "l8-kicad.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 4645,
           "pos_y": 350,
           "size_x": 2005,

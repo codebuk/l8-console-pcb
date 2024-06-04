@@ -951,7 +951,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "hellen-one-common:SOT-23"
+			(property "Footprint" ""
 				(at 6.35 -1.905 0)
 				(effects
 					(font
@@ -973,7 +973,7 @@
 				)
 			)
 			(property "Description" "Generic N-Channel Power MOSFET"
-				(at 0 0 0)
+				(at 3.556 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1255,7 +1255,7 @@
 				)
 			)
 			(property "Footprint" "Package_DIP:DIP-24_W15.24mm_Socket"
-				(at 0 0 0)
+				(at -7.112 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 				)
 			)
 			(property "Description" "Socket for STEVAL boards"
-				(at 0 0 0)
+				(at -8.128 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1329,10 +1329,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -35.56 0)
 					(length 2.54)
-					(name "A0"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1347,10 +1347,10 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin no_connect line
 					(at -24.13 -38.1 0)
 					(length 2.54)
-					(name "D0"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1365,10 +1365,10 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin no_connect line
 					(at -24.13 -40.64 0)
 					(length 2.54)
-					(name "D1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1401,7 +1401,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 -38.1 180)
 					(length 2.54)
 					(name "DIL_INT1"
@@ -1419,7 +1419,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 -35.56 180)
 					(length 2.54)
 					(name "DIL_INT2"
@@ -1437,7 +1437,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 -33.02 180)
 					(length 2.54)
 					(name "DIL_INT3"
@@ -1455,7 +1455,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 -30.48 180)
 					(length 2.54)
 					(name "DIL_INT4"
@@ -1581,10 +1581,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -15.24 180)
 					(length 2.54)
-					(name "DIL_DEN"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1599,10 +1599,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -12.7 180)
 					(length 2.54)
-					(name "DIL_GP"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1617,10 +1617,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -17.78 0)
 					(length 2.54)
-					(name "SAI_FS"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1635,10 +1635,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -20.32 0)
 					(length 2.54)
-					(name "SAI_SCK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1653,10 +1653,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -22.86 0)
 					(length 2.54)
-					(name "SAI_MCLK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1671,10 +1671,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -25.4 0)
 					(length 2.54)
-					(name "SAI_SD"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1689,10 +1689,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -27.94 0)
 					(length 2.54)
-					(name "MDF1_CCK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1707,10 +1707,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -30.48 0)
 					(length 2.54)
-					(name "A2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1725,10 +1725,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -24.13 -33.02 0)
 					(length 2.54)
-					(name "A1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2267,56 +2267,8 @@
 		(uuid "031e7b37-39b7-41a2-89d6-e26473a2af33")
 	)
 	(no_connect
-		(at 201.93 66.04)
-		(uuid "0e0b4f53-a563-498e-9c91-4cbdfbe4ce86")
-	)
-	(no_connect
-		(at 201.93 60.96)
-		(uuid "3d0d1f51-f819-4de8-92cc-c908947c6a28")
-	)
-	(no_connect
-		(at 201.93 78.74)
-		(uuid "4a9eaf4d-1578-4d4b-b54a-99da35259265")
-	)
-	(no_connect
-		(at 201.93 73.66)
-		(uuid "70de1eb1-a0f0-44d1-85a4-387b886a457c")
-	)
-	(no_connect
-		(at 233.68 55.88)
-		(uuid "767a1bb1-ad9c-481d-a459-f212e6689683")
-	)
-	(no_connect
 		(at 233.68 73.66)
 		(uuid "7732137a-3d88-481e-9d80-a1eb9cb229ae")
-	)
-	(no_connect
-		(at 201.93 83.82)
-		(uuid "98a93c37-7314-46a4-b1a9-63d8b4bbda13")
-	)
-	(no_connect
-		(at 201.93 63.5)
-		(uuid "aa5994e4-0bc5-4937-80ad-bea7766aee43")
-	)
-	(no_connect
-		(at 233.68 58.42)
-		(uuid "cb3015b0-e212-4cc8-845a-ca17695a92c1")
-	)
-	(no_connect
-		(at 201.93 71.12)
-		(uuid "cfc2de2b-d406-4649-b5bf-08c71995fd62")
-	)
-	(no_connect
-		(at 201.93 81.28)
-		(uuid "de5d62e0-0f42-47eb-92c6-d3ee299a2bc9")
-	)
-	(no_connect
-		(at 201.93 76.2)
-		(uuid "de940e98-bd5d-4c23-bbb8-84cadb36fdd4")
-	)
-	(no_connect
-		(at 201.93 68.58)
-		(uuid "f2366a08-0b3c-4c20-be0d-26a33d2348e9")
 	)
 	(wire
 		(pts
@@ -5067,7 +5019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 3.1A 112mΩ@4.5V,2.8A 1V@250uA 1PCSPChannel SOT-23 MOSFETs ROHS"
+		(property "Description" "Generic N-Channel Power MOSFET"
 			(at 93.98 116.84 0)
 			(effects
 				(font
