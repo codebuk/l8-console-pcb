@@ -4035,7 +4035,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c9a958f4-51df-4c63-8bb9-238803f3753b")
 		(property "Reference" "PS1"

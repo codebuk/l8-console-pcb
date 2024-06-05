@@ -802,6 +802,26 @@
 		)
 		(uuid "2f81eee7-f01e-4b49-88a4-5bc5fb4630bb")
 	)
+	(label "USB_OTG_FS_DP"
+		(at 180.34 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "392a0c26-07c0-46ef-8edc-62aa1653c967")
+	)
+	(label "USB_OTG_FS_VBUS"
+		(at 349.25 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39508221-fc4f-4214-8dec-13bee55d6238")
+	)
 	(label "SPI4_CS"
 		(at 212.09 208.28 0)
 		(fields_autoplaced yes)
@@ -834,6 +854,16 @@
 			(justify left bottom)
 		)
 		(uuid "415ac23f-6fa6-49e4-97fb-000de3b073f5")
+	)
+	(label "USB_OTG_FS_DP"
+		(at 349.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45537665-4b51-4f24-947e-722658d08ab1")
 	)
 	(label "LCD_DC"
 		(at 212.09 182.88 0)
@@ -889,6 +919,26 @@
 			(justify left bottom)
 		)
 		(uuid "50caa9c5-1fb2-4b7c-9338-154eb143820a")
+	)
+	(label "USB_OTG_FS_VBUS"
+		(at 180.34 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53e9a9b0-da25-4568-afc5-d35615cef8f0")
+	)
+	(label "USB_OTG_FS_DM"
+		(at 349.25 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "571e46e7-69db-40a9-9cf1-adb70181e8a8")
 	)
 	(label "LCD_LED"
 		(at 212.09 185.42 0)
@@ -999,6 +1049,16 @@
 			(justify left bottom)
 		)
 		(uuid "73d80d5b-9fa4-476e-86d1-427f79e86e01")
+	)
+	(label "USB_OTG_FS_DM"
+		(at 180.34 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73f4831e-7244-4500-bb96-94d59115b90c")
 	)
 	(label "CAN_H"
 		(at 53.34 133.35 180)
@@ -1429,6 +1489,16 @@
 		)
 		(uuid "f5bbb08b-4f7f-415e-9db3-eb3070b95e72")
 	)
+	(label "PA10"
+		(at 349.25 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6fcf2e9-0d60-44c4-8290-54c5f89fd35b")
+	)
 	(label "SPI1_SCK"
 		(at 212.09 119.38 0)
 		(fields_autoplaced yes)
@@ -1439,6 +1509,16 @@
 			(justify left bottom)
 		)
 		(uuid "f93fbd57-ec23-4534-b411-1589815491ee")
+	)
+	(label "PA10"
+		(at 180.34 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc79626e-f633-4c1a-8581-70592aeadae5")
 	)
 	(label "SPI2_SCK"
 		(at 212.09 148.59 0)
@@ -2283,6 +2363,46 @@
 			)
 			(uuid "81353049-6fd2-4097-9fea-8fd2985b0800")
 		)
+		(pin "USB_OTG_FS_DP" bidirectional
+			(at 180.34 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d40059e6-d98d-4e33-9cd4-a310347736fd")
+		)
+		(pin "PA10" bidirectional
+			(at 180.34 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1b8eef0-4fa1-4f8b-85cd-7218ba25947e")
+		)
+		(pin "USB_OTG_FS_DM" bidirectional
+			(at 180.34 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea32bec1-5725-4ca8-861a-c1cbd6fb1489")
+		)
+		(pin "USB_OTG_FS_VBUS" input
+			(at 180.34 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47a97d46-aa2a-48e0-927d-b0531c03c2fd")
+		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -2731,6 +2851,84 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 298.45 48.26)
+		(size 50.8 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364")
+		(property "Sheetname" "usb"
+			(at 298.45 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 298.45 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_OTG_FS_DP" bidirectional
+			(at 349.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
+		)
+		(pin "USB_OTG_FS_DM" bidirectional
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
+		)
+		(pin "PA10" bidirectional
+			(at 349.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd48b7bb-c80b-4310-bf23-96bac319b055")
+		)
+		(pin "USB_OTG_FS_VBUS" output
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(page "7")
 				)
 			)
 		)

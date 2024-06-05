@@ -81,31 +81,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "l8-kicad.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1330,
-          "pos_y": 242,
-          "size_x": 953,
-          "size_y": 1026
-        }
-      },
-      {
-        "name": "l8-kicad.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 4645,
-          "pos_y": 350,
-          "size_x": 2005,
-          "size_y": 1608
-        }
-      }
-    ]
+    "files": []
   }
 }

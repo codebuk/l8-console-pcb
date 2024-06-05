@@ -1,0 +1,81 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+BZ1,1,Buzzer,Buzzer_9x9.5RM5.0,,tht
+"C1, C8",2,2.2uF,C_0603_1608Metric,,smt
+C10,1,10uF,C_0805_2012Metric,,smt
+"C11, C12, C15, C16, C17, C2, C3, C30, C4, C6, C9",11,100nF,C_01005_0402Metric,,smt
+"C13, C14",2,18pF,C_0603_1608Metric,,smt
+"C20, C29",2,10nF,C_0603_1608Metric,,smt
+"C23, C5",2,1uF,C_0603_1608Metric,,smt
+C7,1,22uF,C_0805_2012Metric,,smt
+"D1, D6",2,LED-RED,LED_0603_1608Metric,,smt
+"D10, D11, D4, D8, D9",5,LED-YELLOW,LED_0603_1608Metric,,smt
+D16,1,SRV05-4,SOT-363_SC-70-6,,smt
+D17,1,B5819W,D_SOD-123,,smt
+D2,1,SS54,D_SMC,,smt
+D3,1,SM15T33C,D_SMC,,smt
+D5,1,LED-WHITE,LED_0603_1608Metric,,smt
+FB1,1,FILTER,R_0201_0603Metric,,smt
+"H1, H2, H3, H4",4,MountingHole,MountingHole_4mm,,tht
+J1,1,USB_B_Mini,USB-MINI-B-VERTICAL,,tht
+J2,1,"LCD 3.2"" 240x320 Conn_01x14_Pin",PinSocket_1x14_P2.54mm_Vertical,,tht
+J3,1,Screw_Terminal_01x06,"TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal",,tht
+J4,1,Conn_ST_STDC14,CON14_2X7_DUK_FTSH_SAI,,smt
+J7,1,TC2030 - TAG Connect,Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical,,tht
+PS1,1,D36V6F5,PinHeader_1x04_P2.54mm_Vertical,,tht
+"Q1, Q4, Q5",3,SI2301CDS-T1-GE3,SOT-23,,smt
+R1,1,120R,R_0805_2012Metric,,smt
+"R10, R11, R12, R14, R15, R2, R33, R36, R37, R38, R39, R43, R45, R5, R7, R8, R9",17,10K,R_0603_1608Metric,,smt
+R13,1,R100,R_0603_1608Metric,,smt
+"R27, R28, R29",3,22R,R_0603_1608Metric,,smt
+"R3, R30, R32, R35, R4",5,100R,R_0603_1608Metric,,smt
+R34,1,1k,R_0603_1608Metric,,smt
+R47,1,100K,R_0603_1608Metric,,smt
+R48,1,1K,R_0603_1608Metric,,smt
+R6,1,2.2K,R_0603_1608Metric,,smt
+RN2,1,1k,R_Array_Convex_4x0603,,smt
+"SW1, SW2",2,SW_Push,SW_Push_1P1T_XKB_TS-1187A,,smt
+TP1,1,5V,TestPoint_Pad_D1.0mm,,tht
+TP10,1,PC8,TestPoint_Pad_D1.0mm,,tht
+TP11,1,PC9,TestPoint_Pad_D1.0mm,,tht
+TP12,1,PC13,TestPoint_Pad_D1.0mm,,tht
+TP13,1,PC14,TestPoint_Pad_D1.0mm,,tht
+TP14,1,PC15,TestPoint_Pad_D1.0mm,,tht
+TP15,1,PC0,TestPoint_Pad_D1.0mm,,tht
+TP16,1,PA0,TestPoint_Pad_D1.0mm,,tht
+TP17,1,PA1,TestPoint_Pad_D1.0mm,,tht
+TP18,1,PA4,TestPoint_Pad_D1.0mm,,tht
+TP19,1,PA8,TestPoint_Pad_D1.0mm,,tht
+TP2,1,+3.3V,TestPoint_Pad_D1.0mm,,tht
+TP20,1,PB4,TestPoint_Pad_D1.0mm,,tht
+TP21,1,PB5,TestPoint_Pad_D1.0mm,,tht
+TP22,1,PB8,TestPoint_Pad_D1.0mm,,tht
+TP24,1,PB10,TestPoint_Pad_D1.0mm,,tht
+TP25,1,PB11,TestPoint_Pad_D1.0mm,,tht
+TP26,1,PB12,TestPoint_Pad_D1.0mm,,tht
+TP27,1,PD6,TestPoint_Pad_D1.0mm,,tht
+TP28,1,PD7,TestPoint_Pad_D1.0mm,,tht
+TP29,1,PD8,TestPoint_Pad_D1.0mm,,tht
+"TP3, TP4",2,IIS3DHHCTR_SDI,TestPoint_Pad_D1.0mm,,tht
+TP30,1,PD9,TestPoint_Pad_D1.0mm,,tht
+TP31,1,PE8,TestPoint_Pad_D1.0mm,,tht
+TP32,1,PE7,TestPoint_Pad_D1.0mm,,tht
+TP33,1,PE0,TestPoint_Pad_D1.0mm,,tht
+TP34,1,PE1,TestPoint_Pad_D1.0mm,,tht
+TP35,1,PE9,TestPoint_Pad_D1.0mm,,tht
+TP36,1,PE10,TestPoint_Pad_D1.0mm,,tht
+TP37,1,PE11,TestPoint_Pad_D1.0mm,,tht
+TP38,1,PE12,TestPoint_Pad_D1.0mm,,tht
+TP39,1,PD10,TestPoint_Pad_D1.0mm,,tht
+TP40,1,PD11,TestPoint_Pad_D1.0mm,,tht
+TP5,1,IIS3DHHCTR_SCK,TestPoint_Pad_D1.0mm,,tht
+TP6,1,5V ISO,TestPoint_Pad_D1.0mm,,tht
+TP7,1,GND ISO,TestPoint_Pad_D1.0mm,,tht
+TP8,1,PC6,TestPoint_Pad_D1.0mm,,tht
+TP9,1,PC7,TestPoint_Pad_D1.0mm,,tht
+U1,1,B0505S-1WR2,B0505S-1WR2_MNS,,tht
+U2,1,ISO1042-Q1,SOIC-8_3.9x4.9mm_P1.27mm,,smt
+U22,1,TLV76733DRVx,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias,,smt
+U3,1,STM32F427V_G-I_Tx,LQFP-100_14x14mm_P0.5mm,,smt
+U4,1,ST_SENSOR_2,DIP-24_W15.24mm_Socket,,tht
+U5,1,IIS3DHHCTR,CCLGA-16L_5X5X1P7_STM,,smt
+X1,1,8MHz 20pF,Crystal_SMD_5032-2Pin_5.0x3.2mm,,smt
