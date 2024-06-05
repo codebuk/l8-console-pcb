@@ -2398,7 +2398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 77.47 -43.18 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 77.47 -43.18 0)
 			(effects
 				(font
@@ -2416,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 77.47 -43.18 0)
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 77.47 -43.18 0)
 			(effects
 				(font
@@ -2623,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22775"
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2632,7 +2632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2641,7 +2641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JJ1K00"
+		(property "Part #" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+		(property "VEND#" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2820,7 +2820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 69.85 -60.96 0)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 69.85 -60.96 0)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 69.85 -60.96 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 69.85 -60.96 0)
 			(effects
 				(font
@@ -2951,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 16.51 8.89 0)
 			(effects
 				(font
@@ -2960,7 +2960,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 16.51 8.89 0)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 16.51 8.89 0)
 			(effects
 				(font
@@ -2978,7 +2978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 16.51 8.89 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 62.23 -60.96 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 62.23 -60.96 0)
 			(effects
 				(font
@@ -3391,7 +3391,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 62.23 -60.96 0)
 			(effects
 				(font
@@ -3400,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 62.23 -60.96 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JJ1K00"
+		(property "Part #" ""
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -3530,7 +3530,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+		(property "VEND#" ""
 			(at 165.1 90.17 0)
 			(effects
 				(font

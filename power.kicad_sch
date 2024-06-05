@@ -2765,148 +2765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 198.12 113.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d1ff882-9e7c-45cb-aacf-525975dfa1d9")
-		(property "Reference" "C6"
-			(at 196.85 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 196.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 310.388 72.39 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 198.12 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 17.78 83.185 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 584.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 584.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 584.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 584.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 198.12 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 198.12 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d80d278-5e2d-4ae0-a5f4-8091f0eb205c")
-		)
-		(pin "2"
-			(uuid "aeab1f4f-d115-4363-a46c-c3bdf5135de3")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 101.6 110.49 0)
 		(unit 1)
@@ -3145,7 +3003,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22775"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3154,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3163,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JJ1K00"
+		(property "Part #" ""
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3172,7 +3030,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3181,7 +3039,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+		(property "VEND#" ""
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3218,6 +3076,120 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7848621e-76d0-4479-9d2d-9370327b7d20")
+		(property "Reference" "C4"
+			(at 199.39 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.39 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 78.232 72.39 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 198.12 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d3dbce-ef4a-456d-a890-be24370a87f9")
+		)
+		(pin "2"
+			(uuid "5ba0dc73-e9fd-4b60-994d-30af7389b515")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.012 80.01 90)
 			(effects
 				(font
@@ -4330,16 +4302,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
-			(at 388.62 90.805 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C59461"
+		(property "LCSC" " C45783"
 			(at 182.88 113.03 0)
 			(effects
 				(font
@@ -4358,6 +4321,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 182.88 113.03 0)
 			(effects
 				(font

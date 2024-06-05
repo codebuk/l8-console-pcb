@@ -5450,6 +5450,7 @@
 					(alternate "ADC2_IN14" bidirectional line)
 					(alternate "ETH_RXD0" bidirectional line)
 					(alternate "GPIO_OUTPUT" output line)
+					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 22.86 -35.56 180)
@@ -6196,6 +6197,7 @@
 					(alternate "" input line)
 					(alternate "DCMI_D0" bidirectional line)
 					(alternate "I2S2_MCK" bidirectional line)
+					(alternate "" input line)
 					(alternate "SDIO_D6" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
 					(alternate "TIM8_CH1" bidirectional line)
@@ -6221,6 +6223,7 @@
 					(alternate "" input line)
 					(alternate "DCMI_D1" bidirectional line)
 					(alternate "I2S3_MCK" bidirectional line)
+					(alternate "" input line)
 					(alternate "SDIO_D7" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
 					(alternate "TIM8_CH2" bidirectional line)
@@ -6859,6 +6862,7 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S3_ext_SD" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
 					(alternate "SYS_JTRST" bidirectional line)
@@ -7603,93 +7607,6 @@
 				)
 			)
 		)
-		(symbol "l8-kicad-rescue:PWR_FLAG-power"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG-power_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -8028,16 +7945,22 @@
 		)
 	)
 	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f9ee635-37d7-4901-b57b-b7de892a11e9")
+	)
+	(junction
 		(at 322.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19899e78-6c43-41c0-8801-7fedee1e002e")
 	)
 	(junction
-		(at 173.99 87.63)
+		(at 173.99 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1be22a63-4058-438b-8e3a-938746b34692")
+		(uuid "1d1546ae-2e7f-4d86-beeb-0d961cb5a47a")
 	)
 	(junction
 		(at 166.37 85.09)
@@ -8068,6 +7991,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31a0148c-6609-4812-87e1-8ee630b8f25e")
+	)
+	(junction
+		(at 156.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335f4690-4d33-42b6-bd81-88eaa7bbb957")
 	)
 	(junction
 		(at 129.54 52.07)
@@ -8136,22 +8065,16 @@
 		(uuid "7a026529-3a32-4383-8c9d-626dffd9834f")
 	)
 	(junction
-		(at 190.5 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85ebe6f5-ca10-4eb9-9a39-40555cd1a21a")
-	)
-	(junction
 		(at 292.1 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "890d9893-7e60-484a-abe1-7afea6fa8e4b")
 	)
 	(junction
-		(at 156.21 86.36)
+		(at 105.41 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fea7ee3-d70b-4089-9825-5a0cdde24922")
+		(uuid "8ce181ac-682d-4b2b-a3be-ad4d14fe2964")
 	)
 	(junction
 		(at 44.45 179.07)
@@ -8190,12 +8113,6 @@
 		(uuid "baeef589-5483-4ec7-b2e1-91f0432b1af0")
 	)
 	(junction
-		(at 105.41 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb83cf0f-4b8e-48a6-969d-7d545b511b7c")
-	)
-	(junction
 		(at 149.86 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8212,12 +8129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc17072c-b291-4a9d-86b5-a68e11420adc")
-	)
-	(junction
-		(at 173.99 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d31d8e14-9c92-4473-aab4-410180b27e37")
 	)
 	(junction
 		(at 358.14 52.07)
@@ -8313,16 +8224,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 52.07) (xy 173.99 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07678248-0774-49ca-a377-01b7e220adb6")
-	)
-	(wire
-		(pts
 			(xy 316.23 59.69) (xy 316.23 66.04)
 		)
 		(stroke
@@ -8363,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 127 123.19)
+			(xy 119.38 123.19) (xy 140.97 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8383,7 +8284,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 133.35) (xy 127 133.35)
+			(xy 119.38 133.35) (xy 140.97 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8413,7 +8314,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 186.69) (xy 196.85 186.69)
+			(xy 186.69 186.69) (xy 207.01 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8473,13 +8374,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 171.45) (xy 196.85 171.45)
+			(xy 186.69 171.45) (xy 207.01 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16bd6c3f-59a7-4161-8947-ea001eda57e5")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 184.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a8ebc5-8e89-46de-9d4c-d8a9b1724ed8")
 	)
 	(wire
 		(pts
@@ -8493,7 +8404,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 44.45) (xy 105.41 86.36)
+			(xy 105.41 34.29) (xy 105.41 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8503,7 +8414,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 127 130.81)
+			(xy 119.38 130.81) (xy 140.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8553,23 +8464,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 44.45) (xy 113.03 44.45)
+			(xy 105.41 52.07) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "24682b1b-5bfb-4071-b992-182654bf80cb")
-	)
-	(wire
-		(pts
-			(xy 204.47 184.15) (xy 207.01 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26916619-059a-436f-a14f-060f87337e93")
 	)
 	(wire
 		(pts
@@ -8793,16 +8694,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 34.29) (xy 105.41 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b85814-143b-40d9-b1ac-1efd5126eb57")
-	)
-	(wire
-		(pts
 			(xy 207.01 138.43) (xy 186.69 138.43)
 		)
 		(stroke
@@ -8813,16 +8704,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 125.73) (xy 140.97 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42cccdab-463f-4f85-9382-a2181c592c2f")
-	)
-	(wire
-		(pts
 			(xy 318.77 66.04) (xy 318.77 44.45)
 		)
 		(stroke
@@ -8830,16 +8711,6 @@
 			(type default)
 		)
 		(uuid "43a64f5c-0e3e-439d-a5af-cc6f11b6b0d9")
-	)
-	(wire
-		(pts
-			(xy 204.47 186.69) (xy 207.01 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442122d3-8d74-4f74-bf11-0d5e3f21ed75")
 	)
 	(wire
 		(pts
@@ -8953,13 +8824,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 123.19) (xy 140.97 123.19)
+			(xy 173.99 52.07) (xy 173.99 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50768e1b-4f83-499d-b959-1e5c760ee211")
+		(uuid "50e7a9cd-0c8c-4756-b38b-335bfa28ad0f")
 	)
 	(wire
 		(pts
@@ -9000,16 +8871,6 @@
 			(type default)
 		)
 		(uuid "544feb50-0a30-408e-a5c0-72657c78e74d")
-	)
-	(wire
-		(pts
-			(xy 204.47 110.49) (xy 207.01 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5658818e-d2a7-4e88-bdb0-d3fed57296b3")
 	)
 	(wire
 		(pts
@@ -9243,7 +9104,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 129.54 44.45)
+			(xy 120.65 52.07) (xy 129.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9273,7 +9134,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 189.23) (xy 196.85 189.23)
+			(xy 186.69 189.23) (xy 207.01 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9313,7 +9174,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 156.21 85.09)
+			(xy 156.21 85.09) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9423,17 +9284,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 113.03) (xy 207.01 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8e3c16-a2a2-4f73-bc3d-51d3f770ad48")
-	)
-	(wire
-		(pts
-			(xy 186.69 113.03) (xy 196.85 113.03)
+			(xy 186.69 113.03) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9543,7 +9394,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 110.49) (xy 196.85 110.49)
+			(xy 186.69 110.49) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9640,16 +9491,6 @@
 			(type default)
 		)
 		(uuid "94234e0d-2f86-4e4c-a15c-b13556960157")
-	)
-	(wire
-		(pts
-			(xy 134.62 130.81) (xy 140.97 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951bf25c-f477-4e52-8875-711cb69d5ae8")
 	)
 	(wire
 		(pts
@@ -9783,16 +9624,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 156.21 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a896d46f-fb05-4e8a-a22e-7bae58595030")
-	)
-	(wire
-		(pts
 			(xy 156.21 85.09) (xy 158.75 85.09)
 		)
 		(stroke
@@ -9823,16 +9654,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa4294ff-e846-499a-a8cf-1632eb69d9c0")
-	)
-	(wire
-		(pts
 			(xy 104.14 179.07) (xy 140.97 179.07)
 		)
 		(stroke
@@ -9850,16 +9671,6 @@
 			(type default)
 		)
 		(uuid "ad2c9aac-fdf3-48c7-8cc0-71763b59cc87")
-	)
-	(wire
-		(pts
-			(xy 134.62 133.35) (xy 140.97 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b187fe26-efcd-4402-8a8a-7f5f9263b88f")
 	)
 	(wire
 		(pts
@@ -9883,16 +9694,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 171.45) (xy 207.01 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8004d90-753a-4084-95f2-5b54e721b981")
-	)
-	(wire
-		(pts
 			(xy 186.69 105.41) (xy 223.52 105.41)
 		)
 		(stroke
@@ -9903,7 +9704,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 184.15 52.07)
+			(xy 149.86 52.07) (xy 173.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10043,6 +9844,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 68.58) (xy 358.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3ef682-4b9b-43a2-95cd-f70c7c0312d4")
+	)
+	(wire
+		(pts
 			(xy 312.42 139.7) (xy 312.42 146.05)
 		)
 		(stroke
@@ -10053,7 +9864,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 125.73) (xy 127 125.73)
+			(xy 119.38 125.73) (xy 140.97 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10083,16 +9894,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 107.95) (xy 207.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc05246-24fc-404c-b8b7-943056b3b594")
-	)
-	(wire
-		(pts
 			(xy 351.79 198.12) (xy 351.79 207.01)
 		)
 		(stroke
@@ -10103,7 +9904,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 107.95) (xy 186.69 107.95)
+			(xy 186.69 107.95) (xy 207.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10153,7 +9954,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 156.21 86.36)
+			(xy 105.41 85.09) (xy 156.21 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10190,16 +9991,6 @@
 			(type default)
 		)
 		(uuid "d7ca4669-23a4-4571-85ab-fbd03c4b29b9")
-	)
-	(wire
-		(pts
-			(xy 190.5 45.72) (xy 190.5 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b72b30-65b5-4c86-833e-1f1b8cf0bb91")
 	)
 	(wire
 		(pts
@@ -10260,16 +10051,6 @@
 			(type default)
 		)
 		(uuid "dd382246-183c-47cd-a1d2-b4a783a36f10")
-	)
-	(wire
-		(pts
-			(xy 204.47 189.23) (xy 207.01 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd951726-33af-422f-bdd9-ad0040f5fb68")
 	)
 	(wire
 		(pts
@@ -10413,13 +10194,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 44.45) (xy 129.54 52.07)
+			(xy 105.41 52.07) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1b40771-9afb-450e-a617-b64de254298b")
+		(uuid "f3ac6b1f-29db-48f7-b389-9b8382e4e493")
 	)
 	(wire
 		(pts
@@ -10483,7 +10264,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 184.15) (xy 196.85 184.15)
+			(xy 186.69 184.15) (xy 207.01 184.15)
 		)
 		(stroke
 			(width 0)
@@ -12357,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor X7R"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -12366,34 +12147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "C0603C103K1RACTU"
-			(at 342.9 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 342.9 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-3189-1-ND"
-			(at 342.9 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" ""
 			(at 342.9 -1.27 0)
 			(effects
 				(font
@@ -12421,6 +12175,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -12503,147 +12266,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 166.37 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052d18908")
-		(property "Reference" "C33"
-			(at 167.64 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 167.64 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.102 26.67 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 346.71 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db934191-c8cd-46af-9c49-bfde6495955e")
-		)
-		(pin "2"
-			(uuid "5412c2c5-a98d-4490-b76b-96cd21ed9b30")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12810,7 +12432,7 @@
 	)
 	(symbol
 		(lib_id "l8-kicad-rescue:Ferrite_Bead-Device")
-		(at 116.84 44.45 90)
+		(at 116.84 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12818,7 +12440,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c470c85")
 		(property "Reference" "FB1"
-			(at 114.3 41.275 0)
+			(at 114.3 48.895 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12826,7 +12448,7 @@
 			)
 		)
 		(property "Value" "FILTER"
-			(at 120.015 40.005 0)
+			(at 120.015 47.625 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12834,7 +12456,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12843,7 +12465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12851,7 +12473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12482,7 @@
 			)
 		)
 		(property "PageName" ""
-			(at 90.805 -146.05 0)
+			(at 90.805 -138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12869,7 +12491,7 @@
 			)
 		)
 		(property "Part #" ""
-			(at 144.78 213.36 0)
+			(at 144.78 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +12500,7 @@
 			)
 		)
 		(property "VEND" ""
-			(at 144.78 213.36 0)
+			(at 144.78 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +12509,7 @@
 			)
 		)
 		(property "VEND#" ""
-			(at 144.78 213.36 0)
+			(at 144.78 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +12518,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 176.53 212.09 0)
+			(at 176.53 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,7 +12527,7 @@
 			)
 		)
 		(property "LCSC" "C1034"
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,7 +12536,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12923,7 +12545,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 116.84 44.45 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +12751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 138.43 -7.62 0)
 			(effects
 				(font
@@ -13138,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 138.43 -7.62 0)
 			(effects
 				(font
@@ -13147,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 138.43 -7.62 0)
 			(effects
 				(font
@@ -13156,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 138.43 -7.62 0)
 			(effects
 				(font
@@ -13266,147 +12888,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c470cad")
-		(property "Reference" "C34"
-			(at 170.18 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 170.18 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 49.022 26.67 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 341.63 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f482f350-a5ad-43b8-9ec2-07fb6ee67689")
-		)
-		(pin "2"
-			(uuid "60ecae3f-2c75-4c7e-9e18-f686bb3a2db6")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -13640,7 +13121,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C21190"
 			(at 312.42 36.83 0)
 			(effects
 				(font
@@ -13881,288 +13362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 163.83 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5e3a0d")
-		(property "Reference" "C32"
-			(at 165.1 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 165.1 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.942 26.67 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 336.55 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91b0ff9a-a35c-4fec-89cf-75f03e9ac5f6")
-		)
-		(pin "2"
-			(uuid "20266038-f6fa-4d8d-b2d5-71fd57c6017d")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5e3a17")
-		(property "Reference" "C31"
-			(at 162.56 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 162.56 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 49.022 26.67 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 341.63 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48ad2275-533d-4e01-8ade-40a33d46b849")
-		)
-		(pin "2"
-			(uuid "04721b2a-b8fe-4628-b3cc-831c2dbc8b4f")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 163.83 63.5 180)
 		(unit 1)
@@ -14317,7 +13516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 38.862 26.67 90)
 			(effects
 				(font
@@ -14335,7 +13534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor X7R"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -14344,16 +13543,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
-			(at 331.47 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -14362,34 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 158.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 158.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 158.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
+		(property "Manufacturer" "Samsung"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -14409,6 +13572,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 158.75 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14665,7 +13837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at -73.66 6.35 0)
 			(effects
 				(font
@@ -14674,7 +13846,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at -73.66 6.35 0)
 			(effects
 				(font
@@ -14683,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at -73.66 6.35 0)
 			(effects
 				(font
@@ -14692,7 +13864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at -73.66 6.35 0)
 			(effects
 				(font
@@ -14876,138 +14048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 149.86 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cca0570")
-		(property "Reference" "C24"
-			(at 148.59 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 149.225 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 175.133 125.73 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.725 126.365 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbbc0800-8475-408d-9cc1-74a99a9dd8e1")
-		)
-		(pin "2"
-			(uuid "64c7445b-825d-4495-b3ff-c4990ba4091f")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 142.24 62.23 0)
 		(unit 1)
@@ -15180,7 +14220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor X7R"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -15189,34 +14229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "C0603C103K1RACTU"
-			(at -62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at -62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-3189-1-ND"
-			(at -62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" ""
 			(at -62.23 185.42 0)
 			(effects
 				(font
@@ -15244,6 +14257,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -15398,147 +14420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 279.4 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d0251f9")
-		(property "Reference" "C37"
-			(at 280.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 280.67 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at -9.398 160.02 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at 283.21 170.815 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at -10.16 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at -10.16 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at -10.16 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at -10.16 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c468d3c-0e65-4cc8-9841-099d0652e29e")
-		)
-		(pin "2"
-			(uuid "39b35647-9c10-42d5-a442-8bdae0385f69")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 279.4 80.01 0)
 		(unit 1)
@@ -15657,43 +14538,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
-			(at 265.43 167.005 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 722.63 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "RMCF0603JT100K"
-			(at 558.8 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "RMCF0603JT100KCT-ND"
-			(at 558.8 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 558.8 199.39 0)
 			(effects
 				(font
@@ -15739,72 +14584,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "l8-kicad-rescue:PWR_FLAG-power")
-		(at 190.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d3143a7")
-		(property "Reference" "#FLG0103"
-			(at 190.5 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 190.5 41.3258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8c7d96e-3909-4925-94d8-b2404e1418bc")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -16071,137 +14850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0159b5c2-6184-4ceb-aa94-fbecfcbb7155")
-		(property "Reference" "R24"
-			(at 196.088 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 169.672 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 259.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0185200e-ecd1-4c43-90a3-bef8b158a9cb")
-		)
-		(pin "2"
-			(uuid "b38a563a-87af-4622-b55e-e9ef9a580397")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 118.11 90)
 		(unit 1)
@@ -16338,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 449.58 -50.8 0)
 			(effects
 				(font
@@ -16347,7 +14995,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 449.58 -50.8 0)
 			(effects
 				(font
@@ -16356,7 +15004,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 449.58 -50.8 0)
 			(effects
 				(font
@@ -16365,7 +15013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 449.58 -50.8 0)
 			(effects
 				(font
@@ -16598,6 +15246,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab3b468-e257-4590-b0b3-cd2e6edddf07")
+		(property "Reference" "C11"
+			(at 162.56 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.56 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 41.402 26.67 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 161.29 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "466ef325-e2f4-4121-a6b3-c0033fa82292")
+		)
+		(pin "2"
+			(uuid "0009a76d-3b5c-46e0-9091-d3db1cd84440")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 135.89 90)
 		(unit 1)
@@ -16699,8 +15461,8 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 358.14 59.055 90)
+		(property "Value" "2.2K"
+			(at 358.14 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +15496,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
+		(property "PageName" ""
 			(at 353.695 -5.715 0)
 			(effects
 				(font
@@ -16743,7 +15505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603FT2K20"
+		(property "Part #" ""
 			(at 39.37 -38.1 0)
 			(effects
 				(font
@@ -16752,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 39.37 -38.1 0)
 			(effects
 				(font
@@ -16761,7 +15523,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603FT2K20CT-ND"
+		(property "VEND#" ""
 			(at 39.37 -38.1 0)
 			(effects
 				(font
@@ -16770,7 +15532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 39.37 -38.1 0)
 			(effects
 				(font
@@ -16816,137 +15578,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 184.15 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1446895c-f111-41ed-a862-84ea1e6b5575")
-		(property "Reference" "R31"
-			(at 196.088 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 243.332 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 332.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02f4cc5d-23a3-4398-8744-cda6eae0bba8")
-		)
-		(pin "2"
-			(uuid "55419ccc-6df4-4949-84ee-05d2133a437f")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17733,137 +16364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 123.19 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2872fd43-70b7-47aa-95e8-45ea99f77c5c")
-		(property "Reference" "R19"
-			(at 125.984 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 130.81 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 182.372 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.755 271.78 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "508e5047-0dbb-44b9-bb18-be05cb5fbc3e")
-		)
-		(pin "2"
-			(uuid "7db21159-221d-4617-ab06-0f2449e75232")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 138.43 90)
 		(unit 1)
@@ -18566,15 +17066,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 67.31 0)
+		(at 168.91 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3cd5d363-a18f-4796-a392-5c2e448c3d21")
-		(property "Reference" "C9"
-			(at 172.72 66.04 90)
+		(uuid "3b30c626-9dd4-428e-97ad-0fef1884e802")
+		(property "Reference" "C16"
+			(at 170.18 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18583,7 +17083,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.72 74.93 90)
+			(at 170.18 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18591,8 +17091,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.562 26.67 90)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 49.022 26.67 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18601,7 +17101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 67.31 0)
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18609,8 +17109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 67.31 0)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18618,17 +17118,8 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
-			(at 344.17 37.465 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 171.45 67.31 0)
+		(property "LCSC" "C1525"
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18636,35 +17127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0603C104J5RACTU"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "399-7844-1-ND"
-			(at 171.45 67.31 0)
+		(property "Manufacturer" "Samsung"
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +17137,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 171.45 67.31 0)
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +17146,16 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 171.45 67.31 0)
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 168.91 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18691,146 +17164,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e60596b7-b54a-49f8-834e-789d9fdb3b0b")
+			(uuid "b7d2e6bb-d127-4562-8823-43c3dd2479b5")
 		)
 		(pin "2"
-			(uuid "be1e5913-232e-4fe6-a810-25d1aa7b6dd1")
+			(uuid "3cdb5e38-15a1-4434-a431-fe4659ea6785")
 		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 171.45 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e90ef7e-20b8-42b8-b53d-fc4ea239d5cf")
-		(property "Reference" "R17"
-			(at 195.834 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 230.632 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 141.605 320.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "963fd72c-9910-45af-b69c-9baa734ebc2c")
-		)
-		(pin "2"
-			(uuid "b1ec4de2-4c95-4336-9a30-8379c1047d6b")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -19859,137 +18201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 133.35 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5715eeac-1dcd-4485-9548-f35b26011528")
-		(property "Reference" "R22"
-			(at 125.73 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 130.81 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 192.532 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 71.755 281.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "565a571f-2472-4143-8f8e-be249e50385d")
-		)
-		(pin "2"
-			(uuid "2bdb0b47-88c4-41ee-801b-42855e099ca2")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_ST_STDC14")
 		(at 44.45 148.59 0)
 		(unit 1)
@@ -20327,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
+		(property "PageName" ""
 			(at -22.225 342.9 0)
 			(effects
 				(font
@@ -20345,7 +18556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "GRM188R6YA225KA12D"
+		(property "Part #" ""
 			(at 7.62 80.01 0)
 			(effects
 				(font
@@ -20354,7 +18565,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 7.62 80.01 0)
 			(effects
 				(font
@@ -20363,7 +18574,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "490-7204-1-ND"
+		(property "VEND#" ""
 			(at 7.62 80.01 0)
 			(effects
 				(font
@@ -20372,7 +18583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MURATA"
+		(property "Manufacturer" ""
 			(at 7.62 80.01 0)
 			(effects
 				(font
@@ -20744,137 +18955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 125.73 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6706a27d-0d70-43e8-92b6-085e44140ef4")
-		(property "Reference" "R20"
-			(at 126.238 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 130.81 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 184.912 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 71.755 274.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 228.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 228.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 228.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c530e99d-66f2-4b52-8c8a-f17b141867c7")
-		)
-		(pin "2"
-			(uuid "96753efd-2ed2-45b9-ad4f-5360aba22dad")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 27.94 227.33 0)
 		(unit 1)
@@ -21032,10 +19112,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6da05318-0d94-417a-9ca3-3357c5f4ba2e")
 		(property "Reference" "R35"
-			(at 44.45 168.9099 0)
+			(at 36.576 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21044,7 +19123,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 44.45 171.4499 0)
+			(at 41.91 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21097,6 +19176,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 41.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a0f4cf-5084-4eed-98b5-8475f90533e5")
 		)
@@ -21107,137 +19195,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e67d59d-a508-4aad-947c-fd5d93c66394")
-		(property "Reference" "R23"
-			(at 195.834 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 167.132 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 141.605 256.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fc6c3d8-e91b-4dbd-8d72-757bf139deeb")
-		)
-		(pin "2"
-			(uuid "567811e3-cd33-4d74-81cd-2079d64abc7e")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -21361,7 +19318,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22775"
 			(at 323.85 193.04 0)
 			(effects
 				(font
@@ -21370,7 +19327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 323.85 193.04 0)
 			(effects
 				(font
@@ -21379,7 +19336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JJ1K00"
+		(property "Part #" ""
 			(at 323.85 193.04 0)
 			(effects
 				(font
@@ -21388,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 323.85 193.04 0)
 			(effects
 				(font
@@ -21397,7 +19354,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JJ1K00CT-ND"
+		(property "VEND#" ""
 			(at 323.85 193.04 0)
 			(effects
 				(font
@@ -21434,6 +19391,120 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76bb87f3-643b-4ca2-b078-97c9cad87c52")
+		(property "Reference" "C12"
+			(at 165.1 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 43.942 26.67 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 163.83 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59d76bb-6200-45bd-b598-ece406d3ccf5")
+		)
+		(pin "2"
+			(uuid "dd7a0b3a-150b-486a-bc02-5289e7f7ee09")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -21926,6 +19997,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 171.45 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "911017de-255a-41d8-9015-dad94bb7b928")
+		(property "Reference" "C17"
+			(at 172.72 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.72 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 51.562 26.67 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 171.45 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d08070f-1439-47ea-a168-7e94b8ad6078")
+		)
+		(pin "2"
+			(uuid "a243b1b2-aeb0-4741-835f-e7fd060b6d1a")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 298.45 36.83 180)
 		(unit 1)
@@ -22074,7 +20259,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
+		(property "PageName" ""
 			(at 297.815 433.07 0)
 			(effects
 				(font
@@ -22092,7 +20277,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 175.26 20.32 0)
 			(effects
 				(font
@@ -22101,7 +20286,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "1276-1089-1-ND"
+		(property "VEND#" ""
 			(at 175.26 20.32 0)
 			(effects
 				(font
@@ -22362,33 +20547,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 189.23 90)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 279.4 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a29caeed-4d7d-4576-a60c-4ad107667049")
-		(property "Reference" "R26"
-			(at 195.58 189.23 90)
+		(uuid "a2283d98-27f3-4a22-b083-224071eac275")
+		(property "Reference" "C6"
+			(at 280.67 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22R"
-			(at 200.66 189.23 90)
+		(property "Value" "100nF"
+			(at 280.67 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 248.412 90)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 159.512 36.83 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22396,8 +20582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 337.82 0)
+		(property "Datasheet" "~"
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22405,8 +20591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 200.66 189.23 0)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22414,8 +20600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 86.36 0)
+		(property "LCSC" "C1525"
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22423,35 +20609,8 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" ""
-			(at 298.45 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 189.23 0)
+		(property "Manufacturer" "Samsung"
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +20619,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 200.66 189.23 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22469,7 +20628,16 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 200.66 189.23 0)
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 279.4 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22478,15 +20646,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "45e63c68-7433-4b89-bef3-075d9ee06c11")
+			(uuid "a14559a9-6af8-4a6d-885c-626bbee628bc")
 		)
 		(pin "2"
-			(uuid "d190e97c-e28b-4777-814d-a671d53563e0")
+			(uuid "dfcf72c4-38ce-4186-a107-902b1342de82")
 		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R26")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -22701,6 +20869,120 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b413de73-c9e9-4b28-96ec-092fc81178fb")
+		(property "Reference" "C9"
+			(at 151.13 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 151.13 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 29.972 17.78 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72fe92b0-37de-4ca1-952a-ce463dc5e838")
+		)
+		(pin "2"
+			(uuid "59c4ec3f-163e-4cff-9860-a7dc5f89351f")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -23190,7 +21472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -23199,7 +21481,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -23208,7 +21490,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -23217,7 +21499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -23321,7 +21603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "RMCF0603JT10K0"
+		(property "Part #" ""
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -23330,7 +21612,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DIGI"
+		(property "VEND" ""
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -23339,7 +21621,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "RMCF0603JT10K0CT-ND"
+		(property "VEND#" ""
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -23348,7 +21630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "StackPole"
+		(property "Manufacturer" ""
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -23584,7 +21866,7 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
+		(property "PageName" ""
 			(at 282.575 448.31 0)
 			(effects
 				(font
@@ -23594,33 +21876,6 @@
 			)
 		)
 		(property "Part #" "CL10C180JB8NNNC"
-			(at 160.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DIGI"
-			(at 160.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "1276-1089-1-ND"
-			(at 160.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -23656,6 +21911,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage" "50V"
+			(at 302.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5871c597-627a-472b-903b-3e25eb038dc3")
 		)
@@ -23666,6 +21930,120 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d42e2006-3275-4746-9399-3174189de9d5")
+		(property "Reference" "C15"
+			(at 167.64 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 46.482 26.67 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor X7R"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 166.37 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7ceed3-6922-45fb-924a-de9e82d648e7")
+		)
+		(pin "2"
+			(uuid "91ebd348-83e5-4a7e-b41b-f890357b42d8")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -23840,137 +22218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 186.69 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db638037-c729-4bca-819c-35e3ed54b281")
-		(property "Reference" "R18"
-			(at 196.088 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 245.872 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 335.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80c45158-c81a-4079-81a1-1e6adff5e3f5")
-		)
-		(pin "2"
-			(uuid "75f9d83e-5863-497b-b1d4-7970be4356d3")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
 		(at 298.45 154.94 270)
 		(unit 1)
@@ -24029,137 +22276,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 130.81 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0992c6f-14ac-4e13-ac96-51c0040e6d5a")
-		(property "Reference" "R21"
-			(at 125.73 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 130.81 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 189.992 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 71.755 279.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 228.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 228.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 228.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab1fdd01-081c-4c09-a159-eec143818637")
-		)
-		(pin "2"
-			(uuid "66d5ac3c-d9fd-4037-845c-c26086042e2f")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -24810,7 +22926,7 @@
 	)
 	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
-		(at 358.14 62.23 0)
+		(at 358.14 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24818,7 +22934,7 @@
 		(dnp no)
 		(uuid "f153ee6f-7d56-455a-aa4c-11d738d35eb1")
 		(property "Reference" "#PWR022"
-			(at 358.14 62.23 0)
+			(at 358.14 68.58 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24827,7 +22943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 64.008 0)
+			(at 358.14 70.358 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24836,7 +22952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 62.23 0)
+			(at 358.14 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24845,7 +22961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 62.23 0)
+			(at 358.14 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24854,7 +22970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 62.23 0)
+			(at 358.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24953,137 +23069,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "TP34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 113.03 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f70b610a-cf34-4834-9a9f-8584dc8711d0")
-		(property "Reference" "R25"
-			(at 195.58 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 172.212 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 261.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30956cf3-f0de-4d5a-90bd-35cfdffb2c9a")
-		)
-		(pin "2"
-			(uuid "35c3c165-ea0d-48e5-8aaf-f387d48bb18e")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R25")
 					(unit 1)
 				)
 			)
