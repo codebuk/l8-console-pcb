@@ -2513,7 +2513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 213.36 137.16 0)
 			(effects
 				(font
@@ -2586,6 +2586,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 213.36 142.24 0)
 			(effects
 				(font
@@ -2677,6 +2686,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -2858,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 224.79 137.16 0)
 			(effects
 				(font
@@ -2931,6 +2949,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -3066,6 +3093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b624db5-e418-485a-a90b-cc6ca7767370")
 		)
@@ -3180,6 +3216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3d3dbce-ef4a-456d-a890-be24370a87f9")
 		)
@@ -3278,7 +3323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM15T33C"
+		(property "Value" "SM15T100CA"
 			(at 81.915 90.805 90)
 			(effects
 				(font
@@ -3323,7 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C133707"
+		(property "LCSC" "C1975873"
 			(at 78.74 90.17 0)
 			(effects
 				(font
@@ -3342,6 +3387,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 78.74 90.17 0)
 			(effects
 				(font
@@ -3393,7 +3447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 251.46 95.25 0)
 			(effects
 				(font
@@ -3466,6 +3520,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -3696,6 +3759,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67dce073-7928-412e-96aa-4285fd156d99")
 		)
@@ -3739,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -3812,6 +3884,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 251.46 102.87 0)
 			(effects
 				(font
@@ -4099,6 +4180,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c1fef036-4750-417c-8399-af63d0db772d")
 		)
@@ -4235,6 +4325,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74f31a78-f9f4-4ec6-bce0-6e18d6093d10")
 		)
@@ -4338,6 +4437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0425baed-4774-4227-9d35-ed8db37bba2f")
 		)
@@ -4418,6 +4526,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -4510,6 +4627,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2848334"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 162.56 105.41 0)
 			(effects
 				(font

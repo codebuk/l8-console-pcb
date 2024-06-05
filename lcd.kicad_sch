@@ -5,175 +5,6 @@
 	(uuid "77caa2c6-00c7-478f-abfd-5898ace3f2f9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1575,12 +1406,6 @@
 		)
 	)
 	(junction
-		(at 165.1 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3256896e-5bbc-4327-9e68-eb3e52d26b89")
-	)
-	(junction
 		(at 187.96 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1687,16 +1512,6 @@
 			(type default)
 		)
 		(uuid "20c34215-7051-41f2-9d19-86d2bdee42c5")
-	)
-	(wire
-		(pts
-			(xy 157.48 95.25) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2177afb6-89b5-4c4a-9099-3fbdc31a499e")
 	)
 	(wire
 		(pts
@@ -1840,16 +1655,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 27.94) (xy 165.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774777d6-c744-4440-8978-ee4f5cf256b1")
-	)
-	(wire
-		(pts
 			(xy 135.89 76.2) (xy 140.97 76.2)
 		)
 		(stroke
@@ -1867,16 +1672,6 @@
 			(type default)
 		)
 		(uuid "7bc2b506-2114-4a34-bdeb-e0ed180adae1")
-	)
-	(wire
-		(pts
-			(xy 165.1 93.98) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92978cbc-b76e-4127-acd2-549856d7939e")
 	)
 	(wire
 		(pts
@@ -1900,16 +1695,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 27.94) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e9cd4a7-5890-4073-b8c0-f2aa9a42830a")
-	)
-	(wire
-		(pts
 			(xy 153.67 27.94) (xy 153.67 45.72)
 		)
 		(stroke
@@ -1930,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 27.94) (xy 165.1 27.94)
+			(xy 153.67 27.94) (xy 180.34 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2007,16 +1792,6 @@
 			(type default)
 		)
 		(uuid "e50ca2bb-cd7b-4905-974c-eeae9e8a7dad")
-	)
-	(wire
-		(pts
-			(xy 165.1 83.82) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabe789a-84d7-46c6-a84a-06610a111155")
 	)
 	(wire
 		(pts
@@ -2461,6 +2236,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5af97e4c-e19a-40f9-9f11-3bbc79ba6ab3")
 		)
@@ -2471,101 +2255,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 165.1 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23aa275c-b7fe-4d53-af6d-e5fd42ef3fd5")
-		(property "Reference" "D9"
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED-YELLOW"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72038"
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d8d627b-1163-4a26-8b58-a9f3e1cad050")
-		)
-		(pin "2"
-			(uuid "993e2ab8-3057-4a75-912a-27ba5f0e3540")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2678,6 +2367,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -2883,6 +2581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "109bd20f-f4d6-4f03-a35d-6ef3e75282b9")
 		)
@@ -3006,6 +2713,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 134.62 115.57 0)
 			(effects
 				(font
@@ -3180,6 +2896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93d7ce7b-90b5-4868-95f9-ac5470c1fda9")
 		)
@@ -3261,6 +2986,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -3436,6 +3170,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "471587a6-5f68-489c-94a7-718f57ee3529")
 		)
@@ -3446,136 +3189,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.1 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f232f8e9-b072-4ece-8286-5b745459d384")
-		(property "Reference" "R34"
-			(at 162.56 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 165.1 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.878 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1e4a47c-4dbf-4a4a-a330-b7a115ccb5bc")
-		)
-		(pin "2"
-			(uuid "3d11c41a-ef9a-497c-85d1-53f3192e7f40")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
-					(reference "R34")
 					(unit 1)
 				)
 			)

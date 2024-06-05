@@ -578,14 +578,14 @@
 		)
 	)
 	(junction
-		(at 386.08 212.09)
+		(at 386.08 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51720e4e-1a39-41f8-a106-125145e9d159")
 	)
 	(wire
 		(pts
-			(xy 386.08 209.55) (xy 386.08 212.09)
+			(xy 386.08 212.09) (xy 386.08 214.63)
 		)
 		(stroke
 			(width 0)
@@ -595,7 +595,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 212.09) (xy 386.08 212.09)
+			(xy 375.92 214.63) (xy 386.08 214.63)
 		)
 		(stroke
 			(width 0)
@@ -615,13 +615,23 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 209.55) (xy 386.08 209.55)
+			(xy 375.92 212.09) (xy 386.08 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ad8ca8c-1ea0-4065-a1d5-41001a71a2ce")
+	)
+	(wire
+		(pts
+			(xy 375.92 209.55) (xy 396.24 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7203c99b-77a1-4ac0-910e-5254084c7cad")
 	)
 	(wire
 		(pts
@@ -635,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 212.09) (xy 386.08 218.44)
+			(xy 386.08 214.63) (xy 386.08 220.98)
 		)
 		(stroke
 			(width 0)
@@ -652,16 +662,6 @@
 			(type default)
 		)
 		(uuid "d7a70ed5-4f9f-4e70-a8a0-f77f73144518")
-	)
-	(wire
-		(pts
-			(xy 375.92 214.63) (xy 396.24 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2747eea-52ca-4e32-9022-e307ca7f67f9")
 	)
 	(text "ST_SENSOR"
 		(exclude_from_sim no)
@@ -1540,7 +1540,7 @@
 		(uuid "fcdd79fb-3a92-4eb4-b123-ec82a056fcc2")
 	)
 	(label "VBATT"
-		(at 396.24 214.63 0)
+		(at 396.24 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1625,15 +1625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen" ""
-			(at 388.62 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1706,15 +1697,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 370.84 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
 			(at 370.84 209.55 0)
 			(effects
 				(font
@@ -1825,15 +1807,6 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen" ""
-			(at 393.7 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1845,7 +1818,7 @@
 	)
 	(symbol
 		(lib_id "l8-kicad-rescue:GND-power")
-		(at 386.08 218.44 0)
+		(at 386.08 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1854,7 +1827,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdae3461-38e0-43f8-8915-644cfa9c176c")
 		(property "Reference" "#PWR018"
-			(at 386.08 224.79 0)
+			(at 386.08 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 223.52 0)
+			(at 386.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 218.44 0)
+			(at 386.08 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 218.44 0)
+			(at 386.08 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 218.44 0)
+			(at 386.08 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,15 +1957,6 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen" ""
-			(at 398.78 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -2069,15 +2033,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 403.86 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
 			(at 403.86 245.11 0)
 			(effects
 				(font

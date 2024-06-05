@@ -243,175 +243,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2089,12 +1920,6 @@
 		(uuid "5042b236-9cfa-44cb-a542-715143d8f693")
 	)
 	(junction
-		(at 283.21 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "541c2f4c-501c-4784-b4b0-10621faa626b")
-	)
-	(junction
 		(at 52.07 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2221,12 +2046,6 @@
 		(uuid "d9d9fbd1-c752-4914-b2a6-a41d782d7f32")
 	)
 	(junction
-		(at 278.13 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfa980dc-e9a7-4201-9c6c-780ac4fd3200")
-	)
-	(junction
 		(at 45.72 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2339,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "1328cbcc-6ea0-47a7-8708-b407597b5456")
-	)
-	(wire
-		(pts
-			(xy 318.77 31.75) (xy 318.77 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13909221-485f-47e7-b501-263b5c83ad56")
 	)
 	(wire
 		(pts
@@ -2522,16 +2331,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 24.13) (xy 318.77 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf1ba6a-a769-47fe-a8e6-3ebdb4ac791e")
-	)
-	(wire
-		(pts
 			(xy 124.46 87.63) (xy 124.46 109.22)
 		)
 		(stroke
@@ -2609,16 +2408,6 @@
 			(type default)
 		)
 		(uuid "3d6354da-6595-4689-9ac9-c087f92f871b")
-	)
-	(wire
-		(pts
-			(xy 318.77 41.91) (xy 318.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c314c4-add4-4369-afdc-881883bf0c6b")
 	)
 	(wire
 		(pts
@@ -2982,16 +2771,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 109.22) (xy 278.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4fbc5d-f976-49a1-b38e-d6e5b4be37af")
-	)
-	(wire
-		(pts
 			(xy 233.68 83.82) (xy 236.22 83.82)
 		)
 		(stroke
@@ -3109,16 +2888,6 @@
 			(type default)
 		)
 		(uuid "cffac242-44ad-402f-8a7f-19716e71c8c2")
-	)
-	(wire
-		(pts
-			(xy 318.77 49.53) (xy 318.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f1156f-3b86-4aae-9e7e-c907e65bff3a")
 	)
 	(wire
 		(pts
@@ -3574,6 +3343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6d4e19b-5968-4c34-ad0d-537337138f11")
 		)
@@ -3607,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Value" "R100"
+		(property "Value" "100R"
 			(at 58.42 113.03 90)
 			(effects
 				(font
@@ -3652,6 +3430,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 58.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 58.42 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -3857,6 +3653,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b022acec-b609-44d4-b2bf-367214de2e59")
 		)
@@ -3980,6 +3785,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 52.07 45.72 0)
 			(effects
 				(font
@@ -4119,6 +3933,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce394b29-0b20-48b3-9aa0-4dd561600589")
 		)
@@ -4250,6 +4073,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7751584-872e-42c3-a4c3-6807e59b115d")
 		)
@@ -4364,6 +4196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53c9c8cc-9514-4030-826a-c341df3fcf1b")
 		)
@@ -4442,6 +4283,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -4621,6 +4471,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 181.61 43.18 0)
 			(effects
 				(font
@@ -4826,6 +4685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feda9b83-ca5e-4cfb-9dcd-8e76db689597")
 		)
@@ -4836,136 +4704,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 318.77 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f0c9064-22ec-42f8-a275-4b64031cf5ff")
-		(property "Reference" "R30"
-			(at 316.23 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 318.77 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 320.548 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 318.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e599c57-2885-4627-b612-a77cec24b127")
-		)
-		(pin "2"
-			(uuid "22931c7a-3715-401c-99eb-ed487f30d438")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5048,6 +4786,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 93.98 116.84 0)
 			(effects
 				(font
@@ -5182,6 +4929,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 283.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 283.21 62.23 0)
 			(effects
 				(font
@@ -5453,6 +5209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9151eeb1-da7b-4d3f-b67b-17a54a5071dc")
 		)
@@ -5496,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 43.18 76.2 0)
 			(effects
 				(font
@@ -5569,6 +5334,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -5688,6 +5462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ce22a67-8961-40d3-8298-d21420f0f880")
 		)
@@ -5698,110 +5481,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 318.77 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0fb25b5-17d2-4341-93d9-01cf407eebce")
-		(property "Reference" "D8"
-			(at 321.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED-YELLOW"
-			(at 316.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72038"
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" "SENSOR PWR"
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 318.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f64f38ef-d3bc-4e61-b93b-8192f80b5b49")
-		)
-		(pin "2"
-			(uuid "3317e1df-1c33-48f5-b692-d493f216b231")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5919,6 +5598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a748e26d-8226-47fc-931d-f3c834690031")
 		)
@@ -6004,7 +5692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 69.85 83.82 0)
 			(effects
 				(font
@@ -6085,6 +5773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a7e06c0-b081-43b3-96b5-006e58e9983c")
 		)
@@ -6125,7 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -6198,6 +5895,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
 			(at 63.5 81.28 0)
 			(effects
 				(font
