@@ -2490,7 +2490,7 @@
 		(at 213.36 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2cff3b2a-e141-4133-88ac-68a685a3aa0a")
@@ -2640,7 +2640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 72.39 61.595 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303141100_MDD-Microdiode-Electronics-SS54_C22452.pdf"
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+		(property "Description" " 40V 550mV@5A 5A SMA(DO-214AC) Schottky Barrier Diodes (SBD) ROHS"
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen" ""
+		(property "Silkscreen" "X"
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 		(at 224.79 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "740eed46-8748-48f5-8825-57caf67c8a8c")
@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.232 72.39 90)
 			(effects
 				(font
@@ -3171,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -3180,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -3207,7 +3207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 198.12 113.03 90)
 			(effects
 				(font
@@ -3424,7 +3424,7 @@
 		(at 251.46 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c4d1e4d-d11c-4983-a165-86b1965d9f4e")
@@ -3788,7 +3788,7 @@
 		(at 251.46 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "af8e86ce-cfd6-456e-87ef-7f25a46eb7f3")

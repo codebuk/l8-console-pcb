@@ -2411,7 +2411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at -8.128 67.31 90)
 			(effects
 				(font
@@ -2438,7 +2438,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -2447,7 +2447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 111.76 107.95 90)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 151.13 110.49 0)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF"
+		(property "Datasheet" ""
 			(at 151.13 101.6 90)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning"
+		(property "Description" ""
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85364"
+		(property "LCSC" "C2836319"
 			(at 151.13 101.6 0)
 			(effects
 				(font

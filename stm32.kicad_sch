@@ -3965,7 +3965,6 @@
 					(alternate "ADC2_IN14" bidirectional line)
 					(alternate "ETH_RXD0" bidirectional line)
 					(alternate "GPIO_OUTPUT" output line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 22.86 -35.56 180)
@@ -4712,7 +4711,6 @@
 					(alternate "" input line)
 					(alternate "DCMI_D0" bidirectional line)
 					(alternate "I2S2_MCK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SDIO_D6" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
 					(alternate "TIM8_CH1" bidirectional line)
@@ -4738,7 +4736,6 @@
 					(alternate "" input line)
 					(alternate "DCMI_D1" bidirectional line)
 					(alternate "I2S3_MCK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SDIO_D7" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
 					(alternate "TIM8_CH2" bidirectional line)
@@ -5377,7 +5374,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S3_ext_SD" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
 					(alternate "SYS_JTRST" bidirectional line)
@@ -10338,7 +10334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c470c85")
-		(property "Reference" "FB1"
+		(property "Reference" "FB"
 			(at 114.3 48.895 0)
 			(effects
 				(font
@@ -10346,7 +10342,7 @@
 				)
 			)
 		)
-		(property "Value" "FILTER"
+		(property "Value" ""
 			(at 120.015 47.625 0)
 			(effects
 				(font
@@ -10354,7 +10350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 116.84 52.07 0)
 			(effects
 				(font
@@ -10363,12 +10359,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310301641_Sunlord-SDFL1608Q4R7KTF_C1034.pdf"
 			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10470,7 +10467,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "FB1")
+					(reference "FB")
 					(unit 1)
 				)
 			)
@@ -11031,7 +11028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.862 26.67 90)
 			(effects
 				(font
@@ -11058,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -11067,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -11094,7 +11091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 158.75 67.31 90)
 			(effects
 				(font
@@ -12072,7 +12069,7 @@
 		(at 104.14 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01743737-7039-4a8e-9b11-288420926dd9")
@@ -12271,7 +12268,7 @@
 		(at 104.14 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a4d05d5-fd12-462c-82a4-712ef6c5794c")
@@ -12386,7 +12383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.402 26.67 90)
 			(effects
 				(font
@@ -12413,7 +12410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -12422,7 +12419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -12449,7 +12446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 161.29 67.31 90)
 			(effects
 				(font
@@ -12487,7 +12484,7 @@
 		(at 104.14 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ea55724-d87c-4834-8395-8667b1e540ec")
@@ -12580,7 +12577,7 @@
 		(at 104.14 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "14a544d0-5d4e-4368-aff0-603408fac304")
@@ -12673,7 +12670,7 @@
 		(at 104.14 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "171fa000-3f47-4442-940b-80bf4b237d09")
@@ -12766,7 +12763,7 @@
 		(at 223.52 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "19948361-5f84-49ee-b33b-f50280548456")
@@ -12971,7 +12968,7 @@
 		(at 104.14 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ea4f4f7-5144-4b67-a72a-1be7d64c0a7c")
@@ -13064,7 +13061,7 @@
 		(at 104.14 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2348e367-3223-46cd-89b9-09a95ed138a3")
@@ -13223,7 +13220,7 @@
 		(at 223.52 217.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2838dc2b-fd9c-4a31-b527-3d3857c4a55c")
@@ -13316,7 +13313,7 @@
 		(at 104.14 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "28a9a114-b4f7-42fa-9558-c14b1095c7c8")
@@ -13409,7 +13406,7 @@
 		(at 223.52 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "29c08f84-4e50-4513-83ec-b810086dc7ad")
@@ -13502,7 +13499,7 @@
 		(at 223.52 204.47 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2a669978-fabf-4cb0-a392-4af2e8370bde")
@@ -13912,7 +13909,7 @@
 		(at 223.52 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a9f0ac3-a6ee-47a9-8ae4-8f2857c55937")
@@ -14027,7 +14024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.022 26.67 90)
 			(effects
 				(font
@@ -14054,7 +14051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -14063,7 +14060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -14090,7 +14087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 168.91 67.31 90)
 			(effects
 				(font
@@ -14286,7 +14283,7 @@
 		(at 104.14 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "46491760-ddc7-4043-bd86-5eb1a6d7a5aa")
@@ -14688,7 +14685,7 @@
 		(at 104.14 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "501994b4-fe3d-4b3a-95c1-6378d200b0cc")
@@ -15129,7 +15126,7 @@
 		(at 104.14 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5664ba3a-5e1b-4841-811a-d88c6d55f63b")
@@ -15910,7 +15907,7 @@
 		(at 104.14 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "632fbd34-dd68-4870-ac43-716dc32a93a0")
@@ -16003,7 +16000,7 @@
 		(at 223.52 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "66de31d4-9d0b-47ac-bb68-db48805fcd90")
@@ -16162,7 +16159,7 @@
 		(at 223.52 199.39 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b6c728c-f651-4b48-a955-a70630e51a2e")
@@ -16587,7 +16584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.942 26.67 90)
 			(effects
 				(font
@@ -16754,7 +16751,7 @@
 		(at 223.52 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "79dc80b2-fe44-43ae-97dc-d04cdfb6810a")
@@ -16847,7 +16844,7 @@
 		(at 223.52 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c88ffea-4fb3-4106-96f8-a1e7ad33b949")
@@ -16940,7 +16937,7 @@
 		(at 223.52 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7ddea02d-9119-48fc-8228-2701d024c384")
@@ -17033,7 +17030,7 @@
 		(at 104.14 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "83e9211c-921c-443b-be4f-510524288200")
@@ -17126,7 +17123,7 @@
 		(at 223.52 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8764878f-0a1a-47a5-afe5-f2dd5db011ce")
@@ -17241,7 +17238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.562 26.67 90)
 			(effects
 				(font
@@ -17268,7 +17265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -17277,7 +17274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -17304,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 171.45 67.31 90)
 			(effects
 				(font
@@ -17831,7 +17828,7 @@
 		(at 223.52 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b2ef2ca1-b0e8-46dd-bfeb-1882ab73d194")
@@ -17946,7 +17943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 29.972 17.78 90)
 			(effects
 				(font
@@ -17973,7 +17970,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -17982,7 +17979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -18009,7 +18006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 149.86 58.42 90)
 			(effects
 				(font
@@ -18187,7 +18184,7 @@
 		(at 223.52 196.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "baa91548-0d6f-467f-a139-e8b056b4f75b")
@@ -18280,7 +18277,7 @@
 		(at 223.52 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bb3b0761-0213-44c1-874a-42687763b151")
@@ -19079,7 +19076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.482 26.67 90)
 			(effects
 				(font
@@ -19097,7 +19094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor X7R"
+		(property "Description" "Unpolarized capacitor X7R 603"
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -19106,7 +19103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -19115,7 +19112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -19142,7 +19139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 166.37 67.31 90)
 			(effects
 				(font
@@ -19180,7 +19177,7 @@
 		(at 223.52 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7210c18-c171-4efb-9b20-7dd1ce71814a")
@@ -19273,7 +19270,7 @@
 		(at 223.52 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d9a340bd-313b-4fca-8061-1d7b3b2673fb")
@@ -19495,7 +19492,7 @@
 		(at 223.52 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e68d0bd4-820b-4e56-b621-808843cc16ec")
@@ -19588,7 +19585,7 @@
 		(at 223.52 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8dd5601-5bac-44cc-a3f2-d0649fa58377")
@@ -20109,7 +20106,7 @@
 		(at 104.14 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1c07385-598d-4869-bbc8-24f9565c91cf")
@@ -20268,7 +20265,7 @@
 		(at 223.52 219.71 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0d61e3-1fab-4b14-91eb-8b7e5f533996")
