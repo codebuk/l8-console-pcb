@@ -99,11 +99,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
+          "maximized": false,
           "pos_x": 4841,
-          "pos_y": 259,
+          "pos_y": 32,
           "size_x": 1842,
-          "size_y": 2149
+          "size_y": 2092
         }
       }
     ]
