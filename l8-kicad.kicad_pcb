@@ -699,7 +699,7 @@
 		(path "/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364/ed078c2c-d8b5-4bd5-94d1-2ecbdd340872")
 		(sheetname "usb")
 		(sheetfile "usb.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 3.9 -2.025)
 			(end 3.9 -1.425)
@@ -25831,7 +25831,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "2.2K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fc84e27d-6b60-4c96-ad86-f088b595a945")
@@ -25881,7 +25881,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C4190"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31731,6 +31731,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22c041aa-397f-4b15-9371-d6dd1062443e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C C2992393"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abfdffc6-1f64-4863-8de6-8f850d1d3c70")
 			(effects
 				(font
 					(size 1 1)

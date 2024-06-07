@@ -96,12 +96,12 @@
       },
       {
         "name": "l8-kicad.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 37,
+          "display": 0,
+          "maximized": false,
+          "pos_x": 4776,
+          "pos_y": 54,
           "size_x": 1842,
           "size_y": 2092
         }
