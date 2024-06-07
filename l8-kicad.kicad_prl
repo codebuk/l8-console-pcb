@@ -84,22 +84,22 @@
     "files": [
       {
         "name": "l8-kicad.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 4776,
-          "pos_y": 32,
+          "display": 1,
+          "maximized": false,
+          "pos_x": 438,
+          "pos_y": 299,
           "size_x": 1842,
-          "size_y": 2092
+          "size_y": 1569
         }
       },
       {
         "name": "l8-kicad.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 4310,
           "pos_y": 273,
           "size_x": 2005,

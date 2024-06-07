@@ -7540,6 +7540,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba322959-55ce-4476-8e6a-8b147b1e0e8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/73909d3a-f2e9-43a1-adfe-e0aaff309cf7/fef37e52-386f-4958-9f5a-a5e91768511d")
 		(sheetname "can")
@@ -9932,6 +9945,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "125dc02b-201f-419d-b4af-2a4028e22331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7f8719d-df1d-49c8-a961-95dfd43f1558")
 			(effects
 				(font
 					(size 1 1)
@@ -12434,6 +12460,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69f0a246-dc0d-4df5-b0ca-017cfb5ec42d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe3e388-8987-4ab9-bab5-322c81a27829")
 			(effects
 				(font
 					(size 1 1)
@@ -19697,6 +19736,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efed95ab-462b-460c-ac75-7ca373456981")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cb7fc79f-a21e-4f3e-a003-80932d60a7a0/af6d36e7-1ec9-4a55-b4b1-e159c79a389e")
 		(sheetname "power")
@@ -21052,6 +21104,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42e9f2f7-d934-43df-9c3d-5c0febe186b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMC*")
 		(path "/cb7fc79f-a21e-4f3e-a003-80932d60a7a0/382a0dfe-3b94-4f75-a195-94edcfa20b75")
 		(sheetname "power")
@@ -22329,6 +22394,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ef37158-51f6-4eb9-affb-82951ad53ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?363*")
 		(path "/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364/42b6642a-2b88-4361-9b60-61ac44af667f")
 		(sheetname "usb")
@@ -23546,6 +23624,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "001bf2d4-ce4a-4b82-ac78-3f263fbc95cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12925c60-da67-4563-ae62-3a3df8d57ab8")
 			(effects
 				(font
 					(size 1 1)
@@ -28653,6 +28744,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0711dc8c-1c8b-4b0d-8979-43be7ba2bf07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005d0250fb/59b6782e-1390-4f58-bb8b-ddb6bc1adc79")
 		(sheetname "MCU")
@@ -30372,6 +30476,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ced22f34-d41e-4277-a2fd-c7581a87e9e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95eab4f5-01b0-4a1a-944c-022b6e1ad259")
 			(effects
 				(font
 					(size 1 1)

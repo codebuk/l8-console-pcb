@@ -2677,6 +2677,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "282df527-88ec-44ef-875b-8c6be2ffa5de")
 		)
@@ -3604,6 +3613,15 @@
 			)
 		)
 		(property "Silkscreen" ""
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
 			(at 101.6 80.01 0)
 			(effects
 				(font
