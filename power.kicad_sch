@@ -1844,12 +1844,6 @@
 		(uuid "984704a8-5cb6-4547-b8cd-bf43362b7cf0")
 	)
 	(junction
-		(at 224.79 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a09afebe-0ef4-4bea-91e8-938d8c099b70")
-	)
-	(junction
 		(at 233.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1899,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 149.86) (xy 224.79 149.86)
+			(xy 184.15 149.86) (xy 233.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2056,16 +2050,6 @@
 			(type default)
 		)
 		(uuid "7595ed11-358b-4a8d-a41d-330cc7f32fd7")
-	)
-	(wire
-		(pts
-			(xy 224.79 142.24) (xy 224.79 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a2ce78-c1fa-4ec6-a86b-9074dc37fcfe")
 	)
 	(wire
 		(pts
@@ -2306,16 +2290,6 @@
 			(type default)
 		)
 		(uuid "ebef4208-4c9d-48e2-a96a-c919460323a0")
-	)
-	(wire
-		(pts
-			(xy 224.79 149.86) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2cc59bb-0a59-4822-8fd1-aef2c1ef626b")
 	)
 	(wire
 		(pts
@@ -2843,136 +2817,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.79 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "740eed46-8748-48f5-8825-57caf67c8a8c")
-		(property "Reference" "TP7"
-			(at 220.345 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND ISO"
-			(at 215.265 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
-			(at 224.79 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GND ISO"
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "DNP"
-			(at 370.205 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" "DNP"
-			(at 370.205 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" "DNP"
-			(at 370.205 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DNP"
-			(at 370.205 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ce5f511-9ef1-46e8-92fc-9a4754953d6d")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "TP7")
 					(unit 1)
 				)
 			)

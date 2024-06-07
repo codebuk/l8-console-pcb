@@ -41,14 +41,14 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.153,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127127
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,18 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|140135579|113179770|a630acb8-0f7d-47e1-89d0-0e6f27b7badb|00000000-0000-0000-0000-000000000000"
+        "courtyards_overlap|108470001|108595001|a93d6076-3aec-425f-bdb5-d3746f9d33ab|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|109220001|117345001|28985b1c-7da2-41a0-8a0b-d17efb74ce03|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|113350001|114530001|713d2a64-3418-4481-b386-5b5a16875a4b|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|115032501|108595001|6b925e37-091b-4ef1-8e25-34053d91c6a6|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|120220001|108595001|6b52d14d-d850-490e-b85c-86babda88ab6|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|120450001|118495001|b61233f9-f5f2-41b8-a21e-dad9f4ca9165|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|122944101|112319101|a1abe356-8e67-4300-a307-f6a764d62b14|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|124070001|118945001|7013856f-a909-4bf9-826d-17d8b11b1775|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|124620001|108520001|b25e5260-efb5-49ca-a276-d0834d96fe9f|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|130220001|108595001|d438d6bf-62cc-45bb-bd3d-e19afa38a35f|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|131730001|113750001|887bf625-7c08-427a-a705-c70c1f4120ea|49ca08fa-1139-439a-9022-ad3b03b2df21",
+        "courtyards_overlap|136470001|108595001|2efd5e3f-70ec-40e7-bdd7-7b0d96dd3fed|49ca08fa-1139-439a-9022-ad3b03b2df21"
       ],
       "meta": {
         "version": 2
@@ -78,7 +89,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -91,16 +102,16 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "warning",
+        "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "warning",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -120,22 +131,22 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.127127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.381382,
+        "min_copper_edge_clearance": 0.200225,
         "min_hole_clearance": 0.127127,
         "min_hole_to_hole": 0.127127,
-        "min_microvia_diameter": 0.25,
-        "min_microvia_drill": 0.15,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127127,
-        "min_via_annular_width": 0.101702,
-        "min_via_diameter": 0.457657,
-        "solder_mask_to_copper_clearance": 0.005,
+        "min_via_annular_width": 0.100112,
+        "min_via_diameter": 0.40045,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -183,7 +194,7 @@
       ],
       "track_widths": [
         0.0,
-        2.0
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -445,9 +456,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "footprints"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -469,18 +478,15 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127127,
-        "via_diameter": 0.457657,
-        "via_drill": 0.254254,
+        "via_diameter": 0.40045,
+        "via_drill": 0.200225,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3V": "rgb(38, 255, 50)",
-      "+5V": "rgb(255, 242, 42)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -550,125 +556,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLD",
-          "name": "JLD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PN",
-          "name": "PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PageName",
-          "name": "PageName",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part #",
-          "name": "Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Silkscreen",
-          "name": "Silkscreen",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VEND",
-          "name": "VEND",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VEND#",
-          "name": "VEND#",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },

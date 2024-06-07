@@ -758,7 +758,7 @@
 		)
 		(uuid "2139456b-14e4-4847-951c-ccb040c21eec")
 	)
-	(label "CAN_L"
+	(label "CAN_H"
 		(at 396.24 204.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1396,7 +1396,7 @@
 		)
 		(uuid "e34a7b44-be9d-4f58-af3c-83e4bf80efc2")
 	)
-	(label "CAN_H"
+	(label "CAN_L"
 		(at 396.24 207.01 0)
 		(fields_autoplaced yes)
 		(effects
