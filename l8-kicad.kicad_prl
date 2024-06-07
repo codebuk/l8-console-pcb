@@ -83,27 +83,27 @@
   "project": {
     "files": [
       {
-        "name": "l8-kicad.kicad_pcb",
+        "name": "l8-kicad.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 4310,
-          "pos_y": 273,
-          "size_x": 2005,
-          "size_y": 1569
+          "pos_x": 4776,
+          "pos_y": 32,
+          "size_x": 1842,
+          "size_y": 2092
         }
       },
       {
-        "name": "l8-kicad.kicad_sch",
+        "name": "l8-kicad.kicad_pcb",
         "open": true,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 4776,
-          "pos_y": 54,
-          "size_x": 1842,
-          "size_y": 2092
+          "pos_x": 4310,
+          "pos_y": 273,
+          "size_x": 2005,
+          "size_y": 1569
         }
       }
     ]
