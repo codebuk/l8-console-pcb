@@ -8708,6 +8708,7 @@
 	)
 	(label "SPI3_SDO_*"
 		(at 186.69 212.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,6 +8730,7 @@
 	)
 	(label "SPI3_SCK_*"
 		(at 186.69 207.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9016,6 +9018,7 @@
 	)
 	(label "SPI3_SDI_*"
 		(at 186.69 209.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9268,6 +9271,7 @@
 	)
 	(label "SPI2_CS_*"
 		(at 186.69 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9676,6 +9680,7 @@
 	)
 	(label "SPI2_SDO_*"
 		(at 186.69 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11105,7 +11110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -12460,7 +12465,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -14101,7 +14106,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -16661,7 +16666,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C14663"
 			(at 163.83 67.31 0)
 			(effects
 				(font
@@ -16670,7 +16675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 163.83 67.31 0)
 			(effects
 				(font
@@ -17315,7 +17320,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -18020,7 +18025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -19153,7 +19158,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 166.37 67.31 0)
 			(effects
 				(font

@@ -4060,7 +4060,7 @@
 		(at 226.06 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5073,7 +5073,7 @@
 		(at 43.18 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c7d776b7-2f9b-4b10-87d2-2a0d5f135375")
@@ -5252,7 +5252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 168.91 49.53 0)
 			(effects
 				(font
@@ -5326,7 +5326,7 @@
 		(at 92.71 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5504,7 +5504,7 @@
 		(at 69.85 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2e6cabe-c145-4be7-8575-51af46fb5001")
@@ -5634,7 +5634,7 @@
 		(at 63.5 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1bee162-5ab4-4ef1-8525-ce7256c9e839")
@@ -5684,7 +5684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "DNP"
+		(property "Part #" ""
 			(at 208.915 295.91 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND" "DNP"
+		(property "VEND" ""
 			(at 208.915 295.91 0)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 				(hide yes)
 			)
 		)
-		(property "VEND#" "DNP"
+		(property "VEND#" ""
 			(at 208.915 295.91 0)
 			(effects
 				(font
@@ -5711,7 +5711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DNP"
+		(property "Manufacturer" ""
 			(at 208.915 295.91 0)
 			(effects
 				(font

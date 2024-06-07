@@ -59,17 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|108470001|108595001|a93d6076-3aec-425f-bdb5-d3746f9d33ab|49ca08fa-1139-439a-9022-ad3b03b2df21",
         "courtyards_overlap|109220001|117345001|28985b1c-7da2-41a0-8a0b-d17efb74ce03|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|113350001|114530001|713d2a64-3418-4481-b386-5b5a16875a4b|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|115032501|108595001|6b925e37-091b-4ef1-8e25-34053d91c6a6|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|120220001|108595001|6b52d14d-d850-490e-b85c-86babda88ab6|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|120450001|118495001|b61233f9-f5f2-41b8-a21e-dad9f4ca9165|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|122944101|112319101|a1abe356-8e67-4300-a307-f6a764d62b14|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|124070001|118945001|7013856f-a909-4bf9-826d-17d8b11b1775|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|124620001|108520001|b25e5260-efb5-49ca-a276-d0834d96fe9f|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|130220001|108595001|d438d6bf-62cc-45bb-bd3d-e19afa38a35f|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|131730001|113750001|887bf625-7c08-427a-a705-c70c1f4120ea|49ca08fa-1139-439a-9022-ad3b03b2df21",
         "courtyards_overlap|136470001|108595001|2efd5e3f-70ec-40e7-bdd7-7b0d96dd3fed|49ca08fa-1139-439a-9022-ad3b03b2df21"
       ],
       "meta": {
@@ -592,6 +582,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
