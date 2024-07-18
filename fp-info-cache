@@ -1,4 +1,4 @@
-24755372675401034
+24791697485565324
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2305,7 +2305,7 @@ tactile switch Omron B3F right angle through hole
 Button_Switch_THT
 SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm
 Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf
-switch single-pole double-throw SPDT würth wurth
+switch single-pole opposite-side-connection double-throw SPDT würth wurth
 0
 3
 3
@@ -93478,6 +93478,13 @@ hall current
 6
 6
 Sensor_Current
+LEM_LA25-NP
+LEM LA 25-NP Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la%2025-np.pdf)
+Current sensor LEM
+0
+13
+13
+Sensor_Current
 LEM_LA25-P
 LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)
 current transducer
@@ -100835,7 +100842,21 @@ FTSH-107-01-F-DV-K
 14
 14
 dnt
+CON14_2X7_DUK_FTSH_SAI-1
+
+FTSH-107-01-F-DV-K 
+0
+14
+14
+dnt
 CON14_2X7_DUK_FTSH_SAI-L
+
+FTSH-107-01-F-DV-K 
+0
+14
+14
+dnt
+CON14_2X7_DUK_FTSH_SAI-L-2
 
 FTSH-107-01-F-DV-K 
 0
@@ -100849,12 +100870,40 @@ FTSH-107-01-F-DV-K
 14
 14
 dnt
+CON14_2X7_DUK_FTSH_SAI-M-4
+
+FTSH-107-01-F-DV-K 
+0
+14
+14
+dnt
 D36V6F5
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+dnt
+DIP-24_W15.24mm_Socket
+24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
+0
+24
+24
+dnt
+DIP-24_W15.24mm_Socket- nox
+24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
+0
+24
+24
+dnt
+D_SMA - polarity
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
 dnt
 HRO-TYPE-C-31-M-12
 
@@ -100876,6 +100925,13 @@ HRO-TYPE-C-31-M-12-HandSoldering
 0
 16
 13
+dnt
+SAMTEC_FTSH-107-01-F-DV-K-Fix
+
+
+0
+14
+14
 dnt
 TestPoint_Pad_D1.0mm FP .6R
 SMD pad as test Point, diameter 1.0mm

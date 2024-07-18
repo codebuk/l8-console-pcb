@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|109220001|117345001|28985b1c-7da2-41a0-8a0b-d17efb74ce03|49ca08fa-1139-439a-9022-ad3b03b2df21",
-        "courtyards_overlap|136470001|108595001|2efd5e3f-70ec-40e7-bdd7-7b0d96dd3fed|49ca08fa-1139-439a-9022-ad3b03b2df21"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -184,6 +181,7 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -447,7 +445,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Connector"
+    ]
   },
   "meta": {
     "filename": "l8-kicad.kicad_pro",
@@ -471,6 +471,23 @@
         "via_diameter": 0.40045,
         "via_drill": 0.200225,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "THR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.40045,
+        "via_drill": 0.200225,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -478,7 +495,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "THR",
+        "pattern": "+3.3V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

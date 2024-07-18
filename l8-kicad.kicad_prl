@@ -84,12 +84,12 @@
     "files": [
       {
         "name": "l8-kicad.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 438,
-          "pos_y": 299,
+          "display": 0,
+          "maximized": true,
+          "pos_x": 3840,
+          "pos_y": 537,
           "size_x": 1842,
           "size_y": 1569
         }
