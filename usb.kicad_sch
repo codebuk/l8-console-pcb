@@ -2542,7 +2542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "dnt:D_SOD-123-polarity"
 			(at 97.79 -219.583 90)
 			(effects
 				(font

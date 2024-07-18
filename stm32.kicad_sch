@@ -3098,13 +3098,13 @@
 				)
 			)
 		)
-		(symbol "dnt:SI2301CDS-T1-GE3"
+		(symbol "dnt:AO3400A"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 6.35 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3112,8 +3112,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SI2301CDS-T1-GE3"
-				(at 2.54 3.81 0)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3121,8 +3121,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 6.35 -1.905 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3132,8 +3132,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3142,25 +3142,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic N-Channel Power MOSFET"
-				(at 3.556 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" " C20917"
-				(at 8.89 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Power MOSFET OMNIFET"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3169,7 +3151,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3178,7 +3160,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SI2301CDS-T1-GE3_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -3345,7 +3336,7 @@
 					)
 				)
 			)
-			(symbol "SI2301CDS-T1-GE3_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3365,9 +3356,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3383,9 +3374,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6375,6 +6366,18 @@
 		(uuid "d6272620-0fec-414b-8f69-b53200a8116d")
 	)
 	(no_connect
+		(at 186.69 207.01)
+		(uuid "270314e6-298b-4081-afdd-c1d6b6359943")
+	)
+	(no_connect
+		(at 186.69 209.55)
+		(uuid "5f8bba41-b2b3-409a-9045-6cdb0a5a8ccd")
+	)
+	(no_connect
+		(at 186.69 212.09)
+		(uuid "f7872a46-513c-40a9-8850-10208bcd146d")
+	)
+	(no_connect
 		(at 306.07 58.42)
 		(uuid "fd5e356e-623a-4b01-86a5-a2adb511cc1e")
 	)
@@ -6450,16 +6453,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 207.01) (xy 186.69 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071c3d60-ad6e-4958-9fa9-1297c627e6a9")
-	)
-	(wire
-		(pts
 			(xy 118.11 151.13) (xy 140.97 151.13)
 		)
 		(stroke
@@ -6467,16 +6460,6 @@
 			(type default)
 		)
 		(uuid "07dbeaf3-3cda-43f4-83c9-2f2613c500da")
-	)
-	(wire
-		(pts
-			(xy 204.47 209.55) (xy 207.01 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08aeddf0-989f-4df2-805c-c09d339dc5d8")
 	)
 	(wire
 		(pts
@@ -6870,16 +6853,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 209.55) (xy 186.69 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e31c740-be4a-4947-ab2b-46d94ef51b5a")
-	)
-	(wire
-		(pts
 			(xy 208.28 120.65) (xy 186.69 120.65)
 		)
 		(stroke
@@ -6907,16 +6880,6 @@
 			(type default)
 		)
 		(uuid "42707886-3ffe-4c61-824b-1759233f4cf4")
-	)
-	(wire
-		(pts
-			(xy 204.47 207.01) (xy 207.01 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b61069-b248-4617-984c-9e1744b97044")
 	)
 	(wire
 		(pts
@@ -7277,16 +7240,6 @@
 			(type default)
 		)
 		(uuid "6f03a879-9eb6-4f95-92d5-0895e0b4d6ed")
-	)
-	(wire
-		(pts
-			(xy 196.85 212.09) (xy 186.69 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1beed8-d810-4cc4-ae86-61128c2b27d7")
 	)
 	(wire
 		(pts
@@ -7747,16 +7700,6 @@
 			(type default)
 		)
 		(uuid "9d79c604-1181-4468-903a-79a96697508c")
-	)
-	(wire
-		(pts
-			(xy 204.47 212.09) (xy 207.01 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6c541d-a06a-4459-9fd4-fbc1475ab50a")
 	)
 	(wire
 		(pts
@@ -9880,18 +9823,6 @@
 		)
 		(uuid "8a07ee91-2705-405e-a56d-dde60611aba6")
 	)
-	(hierarchical_label "SPI3_SDI"
-		(shape output)
-		(at 207.01 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b6c392d-9975-404e-9c59-e1827608b92a")
-	)
 	(hierarchical_label "SPI2_IRQ"
 		(shape input)
 		(at 207.01 173.99 0)
@@ -9951,18 +9882,6 @@
 			(justify left)
 		)
 		(uuid "b1d77ef8-8a61-489e-9ea1-6de9ed029682")
-	)
-	(hierarchical_label "SPI3_SCK"
-		(shape output)
-		(at 207.01 207.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2153b95-a36a-4166-86c2-3eac54939b62")
 	)
 	(hierarchical_label "SPI1_SDO"
 		(shape input)
@@ -10035,18 +9954,6 @@
 			(justify right)
 		)
 		(uuid "d108e2c4-0de8-4dfe-ac68-db6255a867ac")
-	)
-	(hierarchical_label "SPI3_SDO"
-		(shape input)
-		(at 207.01 212.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e327bccd-dbd6-4a65-9413-1ea349dc61fa")
 	)
 	(hierarchical_label "CAN1_RX"
 		(shape input)
@@ -10344,7 +10251,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "4.7uH"
 			(at 120.015 47.625 0)
 			(effects
 				(font
@@ -10370,7 +10277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead -15mA 4.7uH ±10% 2.1Ω 0603 Inductors (SMD) ROHS"
 			(at 116.84 52.07 0)
 			(effects
 				(font
@@ -13824,7 +13731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
 			(at 148.59 251.46 0)
 			(effects
 				(font
@@ -14618,7 +14525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
 			(at 148.59 259.08 0)
 			(effects
 				(font
@@ -14700,146 +14607,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 209.55 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4af6ff0b-8131-4660-9e13-d75464a35c3f")
-		(property "Reference" "R28"
-			(at 196.088 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 268.732 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 358.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 200.66 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77a933f8-d11a-49c7-8508-5049bca0ac5c")
-		)
-		(pin "2"
-			(uuid "fa22493c-f2b8-4921-a2a6-e473c6b9d851")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -14964,7 +14731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
 			(at 148.59 254 0)
 			(effects
 				(font
@@ -15112,118 +14879,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dnt:SI2301CDS-T1-GE3")
-		(at 349.25 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52f65601-99b5-421a-9bdd-86d660e0c49c")
-		(property "Reference" "Q5"
-			(at 355.6 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2301CDS-T1-GE3"
-			(at 355.6 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 355.6 194.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1808272021_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.pdf"
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic N-Channel Power MOSFET"
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C20917"
-			(at 358.14 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45589706-074d-4a5a-b019-64742f5033cd")
-		)
-		(pin "1"
-			(uuid "41db8e6a-d95e-4ce4-ab35-b6573518bf9f")
-		)
-		(pin "3"
-			(uuid "fed9a517-96ac-4e0b-a4a7-632309e34291")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -15547,7 +15202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
 			(at 148.59 256.54 0)
 			(effects
 				(font
@@ -18093,146 +17748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 212.09 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b419b64b-4abc-4413-ae00-40e7d840c099")
-		(property "Reference" "R29"
-			(at 195.58 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 271.272 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 141.605 360.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 200.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c19aed8e-abce-44a0-9d92-f561ae7c7323")
-		)
-		(pin "2"
-			(uuid "06712678-433a-46bd-80b1-f33276d6e0f4")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 223.52 196.85 270)
 		(unit 1)
@@ -18825,146 +18340,6 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 207.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd91ea3f-627a-4009-82f0-37e33e51f67f")
-		(property "Reference" "R27"
-			(at 195.834 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 200.66 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 266.192 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 141.605 355.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "0603WAF220JT5E"
-			(at 298.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND" ""
-			(at 298.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VEND#" ""
-			(at 298.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 298.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f9d2631-4925-47fb-a723-9da03c14fd78")
-		)
-		(pin "2"
-			(uuid "00d3f4c6-0965-4456-8e98-22c3b1a8247c")
-		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -20310,6 +19685,82 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dnt:AO3400A")
+		(at 349.25 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcc0a14-dc96-4ad5-8e78-3f9638f49cae")
+		(property "Reference" "Q3"
+			(at 355.6 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 355.6 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 354.33 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 354.33 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 349.25 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8e9f3e8-3f33-4693-97dd-b7486008296d")
+		)
+		(pin "2"
+			(uuid "da454721-83f5-4114-ae2d-18e22d2f08ed")
+		)
+		(pin "1"
+			(uuid "e61f3360-54de-464b-9966-2808255613b6")
+		)
+		(instances
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005d0250fb"
+					(reference "Q3")
 					(unit 1)
 				)
 			)

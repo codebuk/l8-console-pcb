@@ -1,4 +1,4 @@
-24791697485565324
+24796861396744530
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100905,6 +100905,13 @@ Diode SMA (DO-214AC)
 2
 2
 dnt
+D_SOD-123-polarity
+SOD-123
+SOD-123
+0
+2
+2
+dnt
 HRO-TYPE-C-31-M-12
 
 
@@ -100926,12 +100933,26 @@ HRO-TYPE-C-31-M-12-HandSoldering
 16
 13
 dnt
+LED_0603_1608Metric - polarity
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+dnt
 SAMTEC_FTSH-107-01-F-DV-K-Fix
 
 
 0
 14
 14
+dnt
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
 dnt
 TestPoint_Pad_D1.0mm FP .6R
 SMD pad as test Point, diameter 1.0mm
