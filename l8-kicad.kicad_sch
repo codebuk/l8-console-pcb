@@ -489,6 +489,309 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Connectors:JST_06"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST_06"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST Connector  6 pins "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_06_0_1"
+				(rectangle
+					(start -1.27 7.62)
+					(end 1.27 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.858) (xy -1.27 -7.62) (xy 1.27 -7.62) (xy 1.27 -6.858) (xy 1.016 -6.858) (xy 1.016 -7.366)
+						(xy -1.016 -7.366) (xy -1.016 -6.858) (xy -1.27 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.858) (xy 1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.858) (xy -1.016 6.858) (xy -1.016 7.366)
+						(xy 1.016 7.366) (xy 1.016 6.858) (xy 1.27 6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 -6.858)
+					(end 1.27 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 -6.858)
+					(end 1.27 6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "JST_06_1_1"
+				(pin passive line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -592,6 +895,32 @@
 		(color 0 0 0 0)
 		(uuid "51720e4e-1a39-41f8-a106-125145e9d159")
 	)
+	(junction
+		(at 386.08 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eca34eab-ed01-4a83-8795-f74f191a5f60")
+	)
+	(wire
+		(pts
+			(xy 375.92 176.53) (xy 396.24 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd1443a-322d-4a8d-9b8a-5cf2d1d9f8b0")
+	)
+	(wire
+		(pts
+			(xy 375.92 181.61) (xy 386.08 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8b7d56-558c-4f7b-9246-52b10d94b718")
+	)
 	(wire
 		(pts
 			(xy 222.25 203.2) (xy 212.09 203.2)
@@ -611,6 +940,16 @@
 			(type default)
 		)
 		(uuid "1a075d07-6ebc-4029-b567-5bfe072cc9de")
+	)
+	(wire
+		(pts
+			(xy 386.08 179.07) (xy 386.08 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209a65db-fc2b-4475-b995-318dba080997")
 	)
 	(wire
 		(pts
@@ -654,6 +993,26 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 181.61) (xy 386.08 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452e639f-4336-4e0e-8e2a-abcb8182c6a7")
+	)
+	(wire
+		(pts
+			(xy 375.92 184.15) (xy 396.24 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549ac177-c79b-4b3d-8971-160fd156964d")
+	)
+	(wire
+		(pts
 			(xy 375.92 204.47) (xy 396.24 204.47)
 		)
 		(stroke
@@ -671,6 +1030,26 @@
 			(type default)
 		)
 		(uuid "6ad8ca8c-1ea0-4065-a1d5-41001a71a2ce")
+	)
+	(wire
+		(pts
+			(xy 375.92 171.45) (xy 396.24 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2fb35f-6b8e-4aac-91e5-2aa6d1252c4a")
+	)
+	(wire
+		(pts
+			(xy 375.92 179.07) (xy 386.08 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7e8e4b-a237-4be4-a3ef-2cc6b745e8c4")
 	)
 	(wire
 		(pts
@@ -754,6 +1133,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 173.99) (xy 396.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e52794-c543-4780-9b39-4d49a5030aa8")
+	)
+	(wire
+		(pts
 			(xy 212.09 229.87) (xy 222.25 229.87)
 		)
 		(stroke
@@ -812,6 +1201,28 @@
 			(justify left bottom)
 		)
 		(uuid "01ae9784-43aa-4a65-8acf-8df27603250c")
+	)
+	(label "CAN_H"
+		(at 396.24 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "030abe79-c3e6-46d6-bacd-ea340997b8ed")
+	)
+	(label "CAN_L"
+		(at 396.24 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06029b29-2b00-4efb-8be8-5bf953afc0ff")
 	)
 	(label "SPI1_IRQ"
 		(at 92.71 228.6 0)
@@ -878,6 +1289,17 @@
 			(justify left bottom)
 		)
 		(uuid "265bbba6-e7bf-4e68-ab5a-bfca830d42c5")
+	)
+	(label "GND_ISO"
+		(at 396.24 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d93fd3-d531-4c75-9de6-29e7e3efdad1")
 	)
 	(label "LCD_LED"
 		(at 95.25 78.74 0)
@@ -1286,6 +1708,17 @@
 		)
 		(uuid "aafe49cd-e8ea-450e-9f26-00f7ee87bad0")
 	)
+	(label "VBATT"
+		(at 396.24 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad0b330a-8ab4-4fc5-bffb-4de1b8fd1c6b")
+	)
 	(label "SPI4_SCK"
 		(at 95.25 66.04 0)
 		(fields_autoplaced yes)
@@ -1617,6 +2050,72 @@
 		(uuid "ffb5d330-cb1e-4bbe-9218-1d73725a3ff0")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 386.08 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f16cb2-f64e-4fb2-aadb-61b1abcbe562")
+		(property "Reference" "#PWR011"
+			(at 386.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "408f12e1-6a6f-4a12-8607-ae7e240fadb4")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 388.62 245.11 0)
 		(unit 1)
@@ -1704,6 +2203,113 @@
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Connectors:JST_06")
+		(at 372.11 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac1fd99a-56bb-43e1-a007-fb8cea439d92")
+		(property "Reference" "J6"
+			(at 372.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST  GH"
+			(at 372.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dnt:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+			(at 372.11 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST Connector  6 pins"
+			(at 372.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 372.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 372.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" ""
+			(at 372.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48120b54-c90f-46df-b195-dd689cdc43c0")
+		)
+		(pin "4"
+			(uuid "5e71dc9d-78a0-45e3-ba53-659bdcbfc872")
+		)
+		(pin "5"
+			(uuid "e5c64f51-3b15-4c6c-be4d-e57d480aa5db")
+		)
+		(pin "3"
+			(uuid "a6643a9d-5887-4ee2-8142-e2be4c23cbfc")
+		)
+		(pin "1"
+			(uuid "849153ca-7b24-4826-8988-d24d1a30e430")
+		)
+		(pin "6"
+			(uuid "d7145fec-0785-4011-83b0-a7795955e69c")
+		)
+		(instances
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(reference "J6")
 					(unit 1)
 				)
 			)
