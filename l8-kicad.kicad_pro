@@ -528,7 +528,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(59, 255, 101)",
+      "+5V": "rgb(131, 63, 255)"
+    },
     "netclass_assignments": {
       "+3.3V": "3.3V",
       "Net-(D1-A)": "VBATT_PROT"
@@ -540,15 +543,15 @@
       },
       {
         "netclass": "SMALL_POWER",
-        "pattern": "*3V"
-      },
-      {
-        "netclass": "SMALL_POWER",
         "pattern": "*VBATT"
       },
       {
         "netclass": "SMALL_POWER",
         "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "SMALL_POWER",
+        "pattern": "+3.3V"
       }
     ]
   },

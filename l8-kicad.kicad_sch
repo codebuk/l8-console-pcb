@@ -356,6 +356,7 @@
 	)
 	(label "SPI3_SDI"
 		(at 95.25 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -531,6 +532,7 @@
 	)
 	(label "SPI3_CS"
 		(at 95.25 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -574,6 +576,7 @@
 	)
 	(label "SPI3_SDO"
 		(at 95.25 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -683,6 +686,7 @@
 	)
 	(label "SPI3_SCK"
 		(at 95.25 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -693,6 +697,7 @@
 	)
 	(label "SPI3_SDO"
 		(at 222.25 191.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -714,6 +719,7 @@
 	)
 	(label "SPI3_SCK"
 		(at 222.25 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -746,6 +752,7 @@
 	)
 	(label "SPI3_CS"
 		(at 222.25 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,6 +928,7 @@
 	)
 	(label "SPI3_SDI"
 		(at 222.25 189.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

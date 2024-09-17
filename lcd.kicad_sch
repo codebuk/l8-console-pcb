@@ -5349,7 +5349,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 121.92) (xy 220.98 121.92)
+			(xy 185.42 121.92) (xy 220.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5579,17 +5579,6 @@
 		)
 		(uuid "22c83a94-5089-4a58-a2a8-3856ef728fb8")
 	)
-	(label "SD_CS"
-		(at 185.42 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d86a936-e6cc-4680-ae11-0e685f1fbd17")
-	)
 	(label "GND"
 		(at 177.8 45.72 0)
 		(fields_autoplaced yes)
@@ -5611,28 +5600,6 @@
 			(justify left bottom)
 		)
 		(uuid "81b6db60-593d-457f-b905-d022e8a56527")
-	)
-	(label "SD_SCK"
-		(at 185.42 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "886d6c41-ced2-414e-b00a-84e469526964")
-	)
-	(label "SD_MOSI"
-		(at 185.42 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad59d951-967e-41b3-8158-a3830184e285")
 	)
 	(label "RESET"
 		(at 177.8 50.8 0)
@@ -5666,17 +5633,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbb91125-6dd0-49bd-a166-b6f12d23d24f")
-	)
-	(label "SD_MISO"
-		(at 185.42 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd321003-0a31-42e3-a757-e1a2905587a5")
 	)
 	(label "VCC"
 		(at 177.8 43.18 0)
@@ -5872,10 +5828,10 @@
 		(lib_id "Connector:Conn_01x18_Pin")
 		(at 281.94 66.04 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00b22542-c22f-47c3-aa35-43aa6b4a5397")
 		(property "Reference" "J9"
@@ -5896,7 +5852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:TE_1-84953-8_1x18-1MP_P1.0mm_Horizontal"
 			(at 281.94 66.04 0)
 			(effects
 				(font
@@ -6441,7 +6397,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f49d8fe-a283-4fef-963f-eccbe247419b")
 		(property "Reference" "JP4"
@@ -7659,7 +7615,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f2bde922-0a5b-4caf-b569-7267d9dd80a1")
 		(property "Reference" "JP3"

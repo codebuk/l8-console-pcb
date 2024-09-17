@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -12,7 +12,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.699999988079071
+      "zones": 0.6600000262260437
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,10 +64,11 @@
       34,
       35,
       36,
+      37,
       39,
       40
     ],
-    "visible_layers": "ffdffff_fffffff9",
+    "visible_layers": "ffce000_fffffff9",
     "zone_display_mode": 0
   },
   "git": {
@@ -91,18 +92,6 @@
           "pos_x": 4912,
           "pos_y": 32,
           "size_x": 2005,
-          "size_y": 1569
-        }
-      },
-      {
-        "name": "l8-kicad.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 617,
-          "pos_y": 166,
-          "size_x": 1842,
           "size_y": 1569
         }
       }

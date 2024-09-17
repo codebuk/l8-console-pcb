@@ -5504,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_REG"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ece05256-7de4-40d1-bda4-2cd5eb46ce46")
-		(property "Reference" "U1"
+		(property "Reference" "U100"
 			(at 193.04 133.35 0)
 			(effects
 				(font
@@ -6590,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Value" "B0505S-1WR2"
+		(property "Value" "B0505XT-1WR3"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -6598,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0505_Isolated_SMD"
+		(property "Footprint" "dnt:0505_Isolated_SMD"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -6617,16 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" "XXX"
+		(property "Description" "SMD-5 Isolated Power Modules ROHS"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -6682,7 +6673,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "U1")
+					(reference "U100")
 					(unit 1)
 				)
 			)

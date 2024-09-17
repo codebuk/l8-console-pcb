@@ -2392,6 +2392,36 @@
 		)
 		(uuid "e9374948-5cb5-478f-9728-d04b0860c1fe")
 	)
+	(label "CAN_H"
+		(at 247.65 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "286d569f-7d4a-48e8-bb52-621555257d7d")
+	)
+	(label "GND_ISO"
+		(at 247.65 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adb117d4-130d-4b3c-af74-6f230da6989d")
+	)
+	(label "CAN_L"
+		(at 247.65 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0624a6c-931d-456b-8a42-32cd25bc9228")
+	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
 		(at 44.45 109.22 180)
@@ -3370,7 +3400,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed28da0c-e4c8-4101-ac29-1f2de52deb67")
 		(property "Reference" "JP2"
