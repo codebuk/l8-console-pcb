@@ -1,0 +1,122 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type,place
+114.56875,-137.290163,90.0,top,BZ1,,,Buzzer_9x9.5RM5.0,Buzzer,tht,True
+130.95,-172.65,0.0,top,C1,,,C_0603_1608Metric,2.2uF,smt,True
+122.2,-119.3,180.0,top,C10,,,C_0603_1608Metric,10uF,smt,True
+121.5,-152.25,0.0,top,C11,,,C_0603_1608Metric,100nF,smt,True
+113.55,-158.25,-90.0,top,C12,,,C_0603_1608Metric,100nF,smt,True
+127.275,-149.6,0.0,top,C13,,,C_0603_1608Metric,18pF,smt,True
+124.0,-149.6,180.0,top,C14,,,C_0603_1608Metric,18pF,smt,True
+114.5,-168.65,0.0,top,C15,,,C_0603_1608Metric,100nF,smt,True
+133.85,-171.925,90.0,top,C16,,,C_0603_1608Metric,100nF,smt,True
+135.5,-157.525,90.0,top,C17,,,C_0603_1608Metric,100nF,smt,True
+149.55,-120.025,90.0,top,C18,CC0603KRX7R9BB104 ,,C_0603_1608Metric,100nF,smt,True
+147.4,-111.3625,90.0,top,C19,,,C_0805_2012Metric,22uF,smt,True
+126.375,-119.25,0.0,top,C2,,,C_0603_1608Metric,100nF,smt,True
+110.95,-147.325,-90.0,top,C20,,,C_0603_1608Metric,10nF,smt,True
+143.85,-108.25,90.0,top,C21,,,C_0603_1608Metric,10uF,smt,True
+135.45,-154.15,90.0,top,C22,CC0603KRX7R9BB104 ,,C_0603_1608Metric,100nF,smt,True
+110.95,-158.225,90.0,top,C23,,,C_0603_1608Metric,1uF,smt,True
+135.35,-148.3,-90.0,top,C24,,,C_0603_1608Metric,10uF,smt,True
+135.55,-144.85,-90.0,top,C25,CC0603KRX7R9BB104 ,,C_0603_1608Metric,100nF,smt,True
+114.5,-170.75,0.0,top,C26,,,C_0603_1608Metric,10uF,smt,True
+130.55,-135.05,-90.0,top,C27,,,C_0603_1608Metric,10uF,smt,True
+137.05,-141.75,180.0,top,C28,,,C_0603_1608Metric,10uF,smt,True
+152.15,-112.1,90.0,top,C3,,,C_0805_2012Metric,10uF,smt,True
+127.95,-153.15,0.0,top,C30,,,C_0603_1608Metric,100nF,smt,True
+140.672873,-109.002127,0.0,top,C4,CC0603KRX7R9BB104 ,,C_0603_1608Metric,100nF,smt,True
+140.672873,-104.852127,180.0,top,C5,,,C_0603_1608Metric,1uF,smt,True
+135.6,-177.3,180.0,top,C6,,,C_0603_1608Metric,100nF,smt,True
+140.847873,-107.102127,0.0,top,C7,,,C_0805_2012Metric,22uF,smt,True
+118.95,-173.25,-90.0,top,C8,,,C_0603_1608Metric,2.2uF,smt,True
+110.95,-154.35,90.0,top,C9,,,C_0603_1608Metric,100nF,smt,True
+144.5,-154.0375,-90.0,top,D1,,,LED_0603_1608Metric - polarity,LED-RED,smt,True
+143.736041,-181.802627,90.0,top,D10,,,SOT-23-6,SRV05-4,smt,True
+119.5,-187.14928,90.0,top,D11,,,LED_0603_1608Metric - polarity,LED-YELLOW,smt,True
+143.15,-186.25,180.0,top,D12,,,D_SOD-123-polarity,B5819W,smt,True
+149.55,-111.07,90.0,top,D13,,,D_MicroSMP_AK,MicroSMP(DO-219AD),smt,True
+103.4375,-175.34,0.0,top,D14,,,LED_0603_1608Metric - polarity,LED-WHITE,smt,True
+103.4375,-177.93,0.0,top,D15,,,LED_0603_1608Metric - polarity,LED-RED,smt,True
+103.4375,-180.52,0.0,top,D16,,,LED_0603_1608Metric - polarity,LED-YELLOW,smt,True
+140.5,-159.0,180.0,top,D2,,,D_SMA - polarity,SS54,smt,True
+151.15,-162.35,-90.0,top,D3,,,D_SMC,SM15T100CA,smt,True
+109.1,-187.14928,90.0,top,D4,,,LED_0603_1608Metric - polarity,LED-YELLOW,smt,True
+112.55,-187.14928,90.0,top,D5,,,LED_0603_1608Metric - polarity,LED-WHITE,smt,True
+116.15,-187.14928,90.0,top,D6,,,LED_0603_1608Metric - polarity,LED-RED,smt,True
+103.4375,-172.75,0.0,top,D7,,,LED_0603_1608Metric - polarity,LED-YELLOW,smt,True
+102.35,-108.75,180.0,top,D8,,,LED_0603_1608Metric - polarity,LED-RED,smt,True
+102.3625,-110.65,180.0,top,D9,,,LED_0603_1608Metric - polarity,LED-RED,smt,True
+146.0,-159.75,180.0,top,F1,,,Fuse_0805_2012Metric,Fuse,smt,True
+143.65,-113.2875,-90.0,top,F2,,,Fuse_0805_2012Metric,Fuse,smt,True
+144.8,-105.3,0.0,top,F3,,,Fuse_0805_2012Metric,Fuse,smt,True
+109.15,-158.2375,90.0,top,FB1,,,L_0603_1608Metric,4.7uH,smt,True
+103.25,-103.0,0.0,top,H1,,,MountingHole_4mm,MountingHole,tht,False
+152.25,-103.0,0.0,top,H2,,,MountingHole_4mm,MountingHole,tht,False
+103.25,-186.0,0.0,top,H3,,,MountingHole_4mm,MountingHole,tht,False
+152.25,-186.0,0.0,top,H4,,,MountingHole_4mm,MountingHole,tht,False
+136.731363,-183.197119,90.0,top,J1,,,USB-MINI-B-VERTICAL,USB_B_Mini,tht,True
+124.25,-187.75,-90.0,bottom,J10,,,PinSocket_1x04_P2.54mm_Vertical,Conn_01x04_Pin,tht,True
+111.34,-101.88,-90.0,bottom,J2,,,PinSocket_1x14_P2.54mm_Vertical,"LCD 3.2"" 240x320 Conn_01x14_Pin",tht,False
+150.6,-150.375,-90.0,top,J3,,,JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical,JST  GH,smt,True
+142.377375,-165.782,0.0,top,J4,,,SAMTEC_FTSH-107-01-F-DV-K-Fix,Conn_ST_STDC14,smt,True
+150.45,-142.05,90.0,top,J6,,,"TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal",Screw_Terminal_01x06,tht,True
+150.734,-174.63,90.0,top,J7,,,Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical,TC2070 - TAG Connect,tht,True
+145.075,-144.35,0.0,top,JP2,,,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,SolderJumper_2_Bridged,tht,False
+102.525,-117.55,180.0,top,JP3,,,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,SolderJumper_2_Open,tht,False
+102.525,-114.85,180.0,top,JP4,,,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,SolderJumper_2_Bridged,tht,False
+147.95,-115.8625,180.0,top,L1,,,L_Sunlord_SWPA4030S,3.3uH,smt,True
+132.9375,-114.25,180.0,top,Q1,,,SOT-23,AO3400A,smt,True
+113.9375,-115.025,0.0,top,Q2,,,SOT-23,AO3400A,smt,True
+106.6875,-139.3,0.0,top,Q3,,,SOT-23,AO3400A,smt,True
+145.15,-147.15,180.0,top,R1,,,R_0805_2012Metric,120R,smt,True
+109.95,-125.875,-90.0,top,R10,,,R_0603_1608Metric,10K,smt,True
+114.7,-125.875,90.0,top,R11,,,R_0603_1608Metric,10K,smt,True
+107.95,-125.85,-90.0,top,R12,,,R_0603_1608Metric,10K,smt,True
+136.75,-118.75,180.0,top,R13,,,R_0603_1608Metric,100R,smt,True
+111.0,-114.825,90.0,top,R14,,,R_0603_1608Metric,10K,smt,True
+124.7,-125.875,-90.0,top,R15,,,R_0603_1608Metric,10K,smt,True
+133.25,-183.375,90.0,top,R16,,,R_0603_1608Metric,10K,smt,True
+133.25,-180.225,-90.0,top,R17,,,R_0603_1608Metric,2.2K,smt,True
+153.2,-120.05,90.0,top,R18,,,R_0603_1608Metric,10K,smt,True
+151.45,-120.05,90.0,top,R19,,,R_0603_1608Metric,54K9,smt,True
+133.0,-118.75,0.0,top,R2,,,R_0603_1608Metric,10K,smt,True
+106.25,-108.75,180.0,top,R20,,,R_0603_1608Metric,2.2K,smt,True
+106.325,-110.55,180.0,top,R21,,,R_0603_1608Metric,2.2K,smt,True
+109.25,-114.825,-90.0,top,R3,,,R_0603_1608Metric,100R,smt,True
+102.0,-139.175,-90.0,top,R32,,,R_0603_1608Metric,100R,smt,True
+103.75,-139.25,90.0,top,R33,,,R_0603_1608Metric,10K,smt,True
+145.25,-172.0,-90.0,top,R35,,,R_0603_1608Metric,100R,smt,True
+114.568811,-152.443476,0.0,top,R36,,,R_0603_1608Metric,10K,smt,True
+115.7625,-110.075,-90.0,top,R37,,,R_0603_1608Metric,10K,smt,True
+120.25,-110.05,-90.0,top,R38,,,R_0603_1608Metric,10K,smt,True
+136.0,-110.075,-90.0,top,R39,,,R_0603_1608Metric,10K,smt,True
+144.5,-150.575,-90.0,top,R4,,,R_0603_1608Metric,2.2K,smt,True
+102.15,-156.25,0.0,top,R43,,,R_0603_1608Metric,10K,smt,True
+109.75,-165.15,90.0,top,R45,,,R_0603_1608Metric,10K,smt,True
+138.75,-177.3,0.0,top,R5,,,R_0603_1608Metric,100K,smt,True
+145.25,-175.275,-90.0,top,R6,,,R_0603_1608Metric,100R,smt,True
+121.7,-126.0,-90.0,top,R7,,,R_0603_1608Metric,10K,smt,True
+122.893811,-130.068476,0.0,top,R8,,,R_0603_1608Metric,10K,smt,True
+106.05,-125.975,-90.0,top,R9,,,R_0603_1608Metric,10K,smt,True
+103.05,-169.65,90.0,top,RN1,,,R_Array_Convex_4x0603,1k,smt,True
+113.45,-179.74928,180.0,top,RN2,,,R_Array_Convex_4x0603,1k,smt,True
+103.625,-163.75,90.0,top,SW1,,,SW_Push_1P1T_XKB_TS-1187A,SW_Push,smt,True
+103.46875,-151.042969,90.0,top,SW2,,,SW_Push_1P1T_XKB_TS-1187A,SW_Push,smt,True
+100.75,-107.25,180.0,top,TP1,,,TestPoint_Pad_D1.0mm FP .6R,5V,tht,False
+114.85,-140.7,90.0,top,TP17,,,TestPoint_Pad_D1.0mm FP .6R,PA1,tht,False
+116.85,-155.25,90.0,top,TP18,,,TestPoint_Pad_D1.0mm FP .6R,PA4,tht,False
+131.65,-175.85,0.0,top,TP19,,,TestPoint_Pad_D1.0mm FP .6R,PA8,tht,False
+103.25,-119.95,0.0,top,TP2,,,TestPoint_Pad_D1.0mm FP .6R,+3.3V,tht,False
+135.55,-163.55,180.0,top,TP20,,,TestPoint_Pad_D1.0mm FP .6R,PB4,tht,False
+135.55,-162.15,180.0,top,TP21,,,TestPoint_Pad_D1.0mm FP .6R,PB5,tht,False
+119.55,-113.05,180.0,top,TP3,,,TestPoint_Pad_D1.0mm FP .6R,IIS3DHHCTR_SDI,tht,False
+122.55,-109.75,180.0,top,TP4,,,TestPoint_Pad_D1.0mm FP .6R,IIS3DHHCTR_SDI,tht,False
+125.25,-111.05,-90.0,top,TP5,,,TestPoint_Pad_D1.0mm FP .6R,IIS3DHHCTR_SCK,tht,False
+138.265,-133.64,0.0,top,U1,,SMD-8 Recom Power,0505_Isolated_SMD,B0505XT-1WR3,smt,True
+139.905,-149.825,90.0,top,U2,,,SOIC-8_7.5x5.85mm_P1.27mm,ISO1042-Q1,smt,True
+140.697873,-111.352127,0.0,top,U22,,,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias,TLV76733DRVx,smt,True
+125.35,-162.75,-90.0,top,U3,,,LQFP-100_14x14mm_P0.5mm,STM32F427V_G-I_Tx,smt,True
+137.2991,-107.075,-90.0,top,U4,,,DIP-24_W15.24mm_Socket- nox,ST_SENSOR_2,tht,False
+125.7,-115.075,0.0,top,U5,,,CCLGA-16L_5X5X1P7_STM,IIS3DHHCTR,smt,False
+152.2,-116.1125,90.0,top,U6,, TSOT-23-6,SOT-23-6,LMR14006YDDCR,smt,True
+126.25,-136.15,0.0,top,U7,, SOT-553,SOT-553,SN74LVC1G14DRLR,smt,True
+125.65,-146.35,0.0,top,X1,,,Crystal_SMD_5032-2Pin_5.0x3.2mm,8MHz 20pF,smt,True

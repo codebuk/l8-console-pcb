@@ -2448,7 +2448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor X7R"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "JLCPCB Rotation Offset" "0"
 			(at 156.21 78.74 0)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed078c2c-d8b5-4bd5-94d1-2ecbdd340872")
 		(property "Reference" "J1"
