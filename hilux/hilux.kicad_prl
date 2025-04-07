@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -12,9 +12,8 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6600000262260437
+      "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -35,14 +34,12 @@
       3,
       4,
       5,
-      7,
       8,
       9,
       10,
       11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -64,11 +61,10 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
-    "visible_layers": "ffcf020_fffffff9",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -78,21 +74,21 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "l8-kicad.kicad_prl",
+    "filename": "hilux.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "l8-kicad.kicad_pcb",
+        "name": "hilux.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 0,
-          "pos_y": 32,
-          "size_x": 1920,
-          "size_y": 1012
+          "maximized": true,
+          "pos_x": 4869,
+          "pos_y": 555,
+          "size_x": 1842,
+          "size_y": 1569
         }
       }
     ]
