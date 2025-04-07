@@ -1,11 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8d063f79-9282-4820-bcf4-1ff3c006cf08")
 	(paper "A3")
 	(title_block
+		(title "l8")
 		(date "2024-05-30")
+		(company "DNT")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -89,7 +91,38 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "ST_SENSOR"
+		(exclude_from_sim no)
+		(at 240.03 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06aae83d-50f6-4362-913e-365cf537f3a8")
+	)
+	(text "IIS3DHHCTR"
+		(exclude_from_sim no)
+		(at 240.03 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e8a8606-9fb8-4d8c-b58e-c4ce40980460")
+	)
+	(text "LCD/TOUCH"
+		(exclude_from_sim no)
+		(at 243.332 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2a6b5f5-9baf-4e90-83a6-0a823ec01c4d")
 	)
 	(no_connect
 		(at 212.09 218.44)
@@ -225,39 +258,8 @@
 		)
 		(uuid "edfc279c-1f46-4c40-97b0-5d00c7f76182")
 	)
-	(text "ST_SENSOR"
-		(exclude_from_sim no)
-		(at 240.03 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06aae83d-50f6-4362-913e-365cf537f3a8")
-	)
-	(text "IIS3DHHCTR"
-		(exclude_from_sim no)
-		(at 240.03 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e8a8606-9fb8-4d8c-b58e-c4ce40980460")
-	)
-	(text "LCD/TOUCH"
-		(exclude_from_sim no)
-		(at 243.332 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b2a6b5f5-9baf-4e90-83a6-0a823ec01c4d")
-	)
 	(label "SPI4_CS_1"
 		(at 222.25 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -268,7 +270,6 @@
 	)
 	(label "SPI1_IRQ"
 		(at 92.71 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -279,7 +280,6 @@
 	)
 	(label "+5V_ISO"
 		(at 93.98 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -290,7 +290,6 @@
 	)
 	(label "SPI1_CS"
 		(at 92.71 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -301,7 +300,6 @@
 	)
 	(label "LCD_RESET"
 		(at 222.25 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -312,7 +310,6 @@
 	)
 	(label "SPI1_IRQ2"
 		(at 92.71 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -323,7 +320,6 @@
 	)
 	(label "LCD_LED"
 		(at 95.25 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -334,7 +330,6 @@
 	)
 	(label "LCD_ON"
 		(at 222.25 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -345,7 +340,6 @@
 	)
 	(label "CAN1_TX"
 		(at 180.34 227.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -356,7 +350,6 @@
 	)
 	(label "SPI3_SDI"
 		(at 95.25 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -367,7 +360,6 @@
 	)
 	(label "USB_OTG_FS_DP"
 		(at 180.34 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -378,7 +370,6 @@
 	)
 	(label "USB_OTG_FS_VBUS"
 		(at 349.25 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -389,7 +380,6 @@
 	)
 	(label "SPI4_SDI"
 		(at 222.25 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -400,7 +390,6 @@
 	)
 	(label "SPI4_SDI"
 		(at 95.25 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -411,7 +400,6 @@
 	)
 	(label "USB_OTG_FS_DP"
 		(at 349.25 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -422,7 +410,6 @@
 	)
 	(label "LCD_DC"
 		(at 222.25 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -433,7 +420,6 @@
 	)
 	(label "SPI1_CS"
 		(at 212.09 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -444,7 +430,6 @@
 	)
 	(label "SPI2_SDO"
 		(at 92.71 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -455,7 +440,6 @@
 	)
 	(label "SPI4_CS_2"
 		(at 95.25 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -466,7 +450,6 @@
 	)
 	(label "GND_ISO"
 		(at 93.98 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -477,7 +460,6 @@
 	)
 	(label "USB_OTG_FS_VBUS"
 		(at 180.34 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -488,7 +470,6 @@
 	)
 	(label "USB_OTG_FS_DM"
 		(at 349.25 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -499,7 +480,6 @@
 	)
 	(label "LCD_LED"
 		(at 222.25 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -510,7 +490,6 @@
 	)
 	(label "SENSOR_ON"
 		(at 212.09 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -521,7 +500,6 @@
 	)
 	(label "SPI2_IRQ"
 		(at 92.71 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -532,7 +510,6 @@
 	)
 	(label "SPI3_CS"
 		(at 95.25 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -543,7 +520,6 @@
 	)
 	(label "SPI2_SDO"
 		(at 212.09 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -554,7 +530,6 @@
 	)
 	(label "LCD_DC"
 		(at 95.25 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -565,7 +540,6 @@
 	)
 	(label "SPI4_CS_1"
 		(at 95.25 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -576,7 +550,6 @@
 	)
 	(label "SPI3_SDO"
 		(at 95.25 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -587,7 +560,6 @@
 	)
 	(label "SPI1_SDO"
 		(at 92.71 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -598,7 +570,6 @@
 	)
 	(label "SPI4_SDO"
 		(at 95.25 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -609,7 +580,6 @@
 	)
 	(label "USB_OTG_FS_DM"
 		(at 180.34 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -620,7 +590,6 @@
 	)
 	(label "SPI2_CS"
 		(at 92.71 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -631,7 +600,6 @@
 	)
 	(label "SPI2_SCK"
 		(at 92.71 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,7 +610,6 @@
 	)
 	(label "SPI2_SDI"
 		(at 212.09 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -653,7 +620,6 @@
 	)
 	(label "SPI2_CS"
 		(at 212.09 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -664,7 +630,6 @@
 	)
 	(label "CAN1_RX"
 		(at 53.34 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -675,7 +640,6 @@
 	)
 	(label "CAN1_TX"
 		(at 53.34 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -686,7 +650,6 @@
 	)
 	(label "SPI3_SCK"
 		(at 95.25 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -697,7 +660,6 @@
 	)
 	(label "SPI3_SDO"
 		(at 222.25 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -708,7 +670,6 @@
 	)
 	(label "SPI4_SCK"
 		(at 222.25 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -719,7 +680,6 @@
 	)
 	(label "SPI3_SCK"
 		(at 222.25 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -730,7 +690,6 @@
 	)
 	(label "LCD_RESET"
 		(at 95.25 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -741,7 +700,6 @@
 	)
 	(label "SPI1_SDI"
 		(at 92.71 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -752,7 +710,6 @@
 	)
 	(label "SPI3_CS"
 		(at 222.25 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -763,7 +720,6 @@
 	)
 	(label "SYS_WAKEUP"
 		(at 212.09 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -774,7 +730,6 @@
 	)
 	(label "SPI1_SDI"
 		(at 212.09 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +740,6 @@
 	)
 	(label "SPI4_SCK"
 		(at 95.25 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -796,7 +750,6 @@
 	)
 	(label "SPI1_IRQ2"
 		(at 212.09 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -807,7 +760,6 @@
 	)
 	(label "SPI1_CS2"
 		(at 212.09 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -818,7 +770,6 @@
 	)
 	(label "CAN1_RX"
 		(at 180.34 224.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -829,7 +780,6 @@
 	)
 	(label "SYS_WAKEUP"
 		(at 95.25 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -840,7 +790,6 @@
 	)
 	(label "SPI4_SDO"
 		(at 222.25 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -851,7 +800,6 @@
 	)
 	(label "SPI1_SCK"
 		(at 92.71 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,7 +810,6 @@
 	)
 	(label "LCD_ON"
 		(at 53.34 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,7 +820,6 @@
 	)
 	(label "SPI1_SDO"
 		(at 212.09 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -884,7 +830,6 @@
 	)
 	(label "SPI2_SDI"
 		(at 92.71 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -895,7 +840,6 @@
 	)
 	(label "SPI1_CS2"
 		(at 92.71 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -906,7 +850,6 @@
 	)
 	(label "+5V_ISO"
 		(at 53.34 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -917,7 +860,6 @@
 	)
 	(label "VBATT"
 		(at 53.34 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -928,7 +870,6 @@
 	)
 	(label "SPI3_SDI"
 		(at 222.25 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +880,6 @@
 	)
 	(label "SPI1_IRQ"
 		(at 212.09 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +890,6 @@
 	)
 	(label "SPI2_IRQ2"
 		(at 212.09 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -961,7 +900,6 @@
 	)
 	(label "GND_ISO"
 		(at 53.34 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -972,7 +910,6 @@
 	)
 	(label "SPI4_CS_2"
 		(at 222.25 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +920,6 @@
 	)
 	(label "SPI2_IRQ2"
 		(at 92.71 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +930,6 @@
 	)
 	(label "SPI2_IRQ"
 		(at 212.09 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +940,6 @@
 	)
 	(label "VBATT"
 		(at 95.25 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,7 +950,6 @@
 	)
 	(label "SENSOR_ON"
 		(at 52.07 222.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +960,6 @@
 	)
 	(label "PA10"
 		(at 349.25 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +970,6 @@
 	)
 	(label "SPI1_SCK"
 		(at 212.09 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,7 +980,6 @@
 	)
 	(label "PA10"
 		(at 180.34 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1060,7 +990,6 @@
 	)
 	(label "SPI2_SCK"
 		(at 212.09 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,6 +1373,10 @@
 	(sheet
 		(at 180.34 85.09)
 		(size 31.75 162.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1474,353 +1407,353 @@
 		)
 		(pin "SPI1_SCK" output
 			(at 212.09 119.38 0)
+			(uuid "2da2db5a-7abf-43f3-b809-636d3a042b77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2da2db5a-7abf-43f3-b809-636d3a042b77")
 		)
 		(pin "SPI2_SDO" output
 			(at 212.09 151.13 0)
+			(uuid "45fb28cc-ef59-4f3e-af9d-45bc4a69acb2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45fb28cc-ef59-4f3e-af9d-45bc4a69acb2")
 		)
 		(pin "SPI2_SDI" input
 			(at 212.09 153.67 0)
+			(uuid "147e2a87-41d1-4de1-b41b-059d346a4397")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "147e2a87-41d1-4de1-b41b-059d346a4397")
 		)
 		(pin "SPI1_SDI" output
 			(at 212.09 121.92 0)
+			(uuid "74573a5c-cc47-427a-b275-c69eeb62d700")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "74573a5c-cc47-427a-b275-c69eeb62d700")
 		)
 		(pin "SPI1_SDO" input
 			(at 212.09 124.46 0)
+			(uuid "208d5fce-1ff4-49bd-b2dd-c596b0653357")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "208d5fce-1ff4-49bd-b2dd-c596b0653357")
 		)
 		(pin "SPI2_SCK" output
 			(at 212.09 148.59 0)
+			(uuid "05102314-6e57-443f-b9c2-c3cd48bfa7a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "05102314-6e57-443f-b9c2-c3cd48bfa7a3")
 		)
 		(pin "SPI4_SDI" input
 			(at 212.09 205.74 0)
+			(uuid "a43f0630-4a8e-40cc-88fa-4f25fd62cf87")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a43f0630-4a8e-40cc-88fa-4f25fd62cf87")
 		)
 		(pin "SPI4_SCK" output
 			(at 212.09 200.66 0)
+			(uuid "5c9d5143-4fd7-4c8a-9651-26bce131c93d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5c9d5143-4fd7-4c8a-9651-26bce131c93d")
 		)
 		(pin "SPI4_SDO" output
 			(at 212.09 203.2 0)
+			(uuid "bc71f7b3-0a0b-48e1-b456-aaf66d22df2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bc71f7b3-0a0b-48e1-b456-aaf66d22df2b")
 		)
 		(pin "SPI1_CS2" output
 			(at 212.09 129.54 0)
+			(uuid "870f0159-f308-4a4e-956c-453dedf75ff8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "870f0159-f308-4a4e-956c-453dedf75ff8")
 		)
 		(pin "SPI1_CS" output
 			(at 212.09 127 0)
+			(uuid "e28b1224-8f2b-46f4-aa63-6dda5a960dd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e28b1224-8f2b-46f4-aa63-6dda5a960dd1")
 		)
 		(pin "SPI1_IRQ" input
 			(at 212.09 132.08 0)
+			(uuid "1c078d37-271b-4562-8e00-e2d49c470c82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1c078d37-271b-4562-8e00-e2d49c470c82")
 		)
 		(pin "SPI1_IRQ2" input
 			(at 212.09 134.62 0)
+			(uuid "782b3c38-7b92-4399-91db-3dc28a8a5f2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "782b3c38-7b92-4399-91db-3dc28a8a5f2c")
 		)
 		(pin "SPI2_CS" output
 			(at 212.09 156.21 0)
+			(uuid "5f277563-6710-4741-a906-38659ed6336c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f277563-6710-4741-a906-38659ed6336c")
 		)
 		(pin "LCD_ON" output
 			(at 212.09 224.79 0)
+			(uuid "eeeeda8c-af8e-463c-a1f9-b8bb8b134676")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eeeeda8c-af8e-463c-a1f9-b8bb8b134676")
 		)
 		(pin "CAN1_RX" input
 			(at 180.34 224.79 180)
+			(uuid "00450cb1-4f9c-4384-b0a5-7850641131ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "00450cb1-4f9c-4384-b0a5-7850641131ec")
 		)
 		(pin "CAN1_TX" output
 			(at 180.34 227.33 180)
+			(uuid "9ac8ade9-b8d5-44d2-991e-2c2df38b283d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9ac8ade9-b8d5-44d2-991e-2c2df38b283d")
 		)
 		(pin "SENSOR_ON" output
 			(at 212.09 113.03 0)
+			(uuid "75babf5a-3a45-4c6c-9d9c-3369bc7286ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "75babf5a-3a45-4c6c-9d9c-3369bc7286ed")
 		)
 		(pin "LCD_DC" output
 			(at 212.09 227.33 0)
+			(uuid "c7d03df5-46fe-4cbb-a4d6-571e8745e615")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7d03df5-46fe-4cbb-a4d6-571e8745e615")
 		)
 		(pin "LCD_LED" output
 			(at 212.09 229.87 0)
+			(uuid "7d999033-f433-420c-a3a2-cf6b1c4557a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d999033-f433-420c-a3a2-cf6b1c4557a6")
 		)
 		(pin "LCD_RESET" output
 			(at 212.09 232.41 0)
+			(uuid "0463c6b3-37a5-4699-887f-88ffc0af6c9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0463c6b3-37a5-4699-887f-88ffc0af6c9d")
 		)
 		(pin "SPI2_IRQ2" input
 			(at 212.09 161.29 0)
+			(uuid "10d6a06c-48fd-47e4-9bc5-c61037eb72ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "10d6a06c-48fd-47e4-9bc5-c61037eb72ac")
 		)
 		(pin "SPI2_IRQ" input
 			(at 212.09 158.75 0)
+			(uuid "81353049-6fd2-4097-9fea-8fd2985b0800")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "81353049-6fd2-4097-9fea-8fd2985b0800")
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
 			(at 180.34 91.44 180)
+			(uuid "d40059e6-d98d-4e33-9cd4-a310347736fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d40059e6-d98d-4e33-9cd4-a310347736fd")
 		)
 		(pin "PA10" bidirectional
 			(at 180.34 95.25 180)
+			(uuid "e1b8eef0-4fa1-4f8b-85cd-7218ba25947e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e1b8eef0-4fa1-4f8b-85cd-7218ba25947e")
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
 			(at 180.34 99.06 180)
+			(uuid "ea32bec1-5725-4ca8-861a-c1cbd6fb1489")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea32bec1-5725-4ca8-861a-c1cbd6fb1489")
 		)
 		(pin "USB_OTG_FS_VBUS" input
 			(at 180.34 104.14 180)
+			(uuid "47a97d46-aa2a-48e0-927d-b0531c03c2fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47a97d46-aa2a-48e0-927d-b0531c03c2fd")
 		)
 		(pin "SPI4_CS_1" output
 			(at 212.09 213.36 0)
+			(uuid "ef9d9548-589b-444a-885c-c548f8ff43ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef9d9548-589b-444a-885c-c548f8ff43ed")
 		)
 		(pin "SPI4_CS_2" output
 			(at 212.09 215.9 0)
+			(uuid "e84d7f98-c40b-476b-be1e-2339d80b5626")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e84d7f98-c40b-476b-be1e-2339d80b5626")
 		)
 		(pin "SYS_WAKEUP" input
 			(at 212.09 177.8 0)
+			(uuid "efe9b5aa-8ecd-4a34-82b6-f8be3565e509")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "efe9b5aa-8ecd-4a34-82b6-f8be3565e509")
 		)
 		(pin "SPI4_IRQ" input
 			(at 212.09 218.44 0)
+			(uuid "fd082239-ec45-477d-b0b8-f7b5130e473f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fd082239-ec45-477d-b0b8-f7b5130e473f")
 		)
 		(pin "SPI3_CS" output
 			(at 212.09 184.15 0)
+			(uuid "7a2eef27-ebac-4de5-9f39-27fbea447544")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a2eef27-ebac-4de5-9f39-27fbea447544")
 		)
 		(pin "SPI3_SCK" output
 			(at 212.09 186.69 0)
+			(uuid "dae9a1d9-c8ad-4eb9-99e4-ca61c371b967")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dae9a1d9-c8ad-4eb9-99e4-ca61c371b967")
 		)
 		(pin "SPI3_SDI" output
 			(at 212.09 189.23 0)
+			(uuid "e788174e-b8d9-4434-8d53-59ad96b3f5e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e788174e-b8d9-4434-8d53-59ad96b3f5e2")
 		)
 		(pin "SPI3_SDO" input
 			(at 212.09 191.77 0)
+			(uuid "9d9c200d-975d-481b-ae28-6fffac63be75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d9c200d-975d-481b-ae28-6fffac63be75")
 		)
 		(instances
 			(project "l8-kicad"
@@ -1833,6 +1766,10 @@
 	(sheet
 		(at 53.34 120.65)
 		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1862,53 +1799,53 @@
 		)
 		(pin "GND_ISO" input
 			(at 53.34 143.51 180)
+			(uuid "474f1754-2743-4fa9-9622-a909d1cc225f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "474f1754-2743-4fa9-9622-a909d1cc225f")
 		)
 		(pin "+5V_ISO" input
 			(at 53.34 139.7 180)
+			(uuid "cb841d38-3349-40f0-8e26-12f4e4ba75cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cb841d38-3349-40f0-8e26-12f4e4ba75cf")
 		)
 		(pin "CAN_TX" input
 			(at 53.34 123.19 180)
+			(uuid "2b0713f0-950c-4e9e-ac7d-4e0d8e1bac67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2b0713f0-950c-4e9e-ac7d-4e0d8e1bac67")
 		)
 		(pin "CAN_RX" input
 			(at 53.34 125.73 180)
+			(uuid "6bf7a723-7be0-4824-957c-6b91b7bf893b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6bf7a723-7be0-4824-957c-6b91b7bf893b")
 		)
 		(pin "VBATT" output
 			(at 95.25 123.19 0)
+			(uuid "f8c895f9-5f70-4672-b061-abd778074089")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f8c895f9-5f70-4672-b061-abd778074089")
 		)
 		(instances
 			(project "l8-kicad"
@@ -1921,6 +1858,10 @@
 	(sheet
 		(at 52.07 212.09)
 		(size 40.64 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1950,143 +1891,143 @@
 		)
 		(pin "IIS3DHHCTR_INT2" input
 			(at 92.71 250.19 0)
+			(uuid "dd58a7be-0943-49d8-b31a-c8310fc57c85")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dd58a7be-0943-49d8-b31a-c8310fc57c85")
 		)
 		(pin "IIS3DHHCTR_INT1" input
 			(at 92.71 247.65 0)
+			(uuid "3b03b610-bada-44ba-b2ec-a9b2396355e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3b03b610-bada-44ba-b2ec-a9b2396355e2")
 		)
 		(pin "ST_SENSOR_SDO" input
 			(at 92.71 218.44 0)
+			(uuid "46f1d92a-de0e-4eb5-835c-c397a53dcaf6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "46f1d92a-de0e-4eb5-835c-c397a53dcaf6")
 		)
 		(pin "ST_SENSOR_SDI" input
 			(at 92.71 220.98 0)
+			(uuid "8506c858-afb0-45c4-9079-7fed191940f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8506c858-afb0-45c4-9079-7fed191940f4")
 		)
 		(pin "IIS3DHHCTR_SDO" input
 			(at 92.71 240.03 0)
+			(uuid "25c3c080-0125-4fc5-b63d-1a1fa2da7e3f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "25c3c080-0125-4fc5-b63d-1a1fa2da7e3f")
 		)
 		(pin "IIS3DHHCTR_CS" input
 			(at 92.71 245.11 0)
+			(uuid "dda62b43-b022-44db-8a6a-05385bc7fe50")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dda62b43-b022-44db-8a6a-05385bc7fe50")
 		)
 		(pin "IIS3DHHCTR_SDI" input
 			(at 92.71 242.57 0)
+			(uuid "6cfe8fa4-f285-4d3c-93bd-d8a2f5a56964")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6cfe8fa4-f285-4d3c-93bd-d8a2f5a56964")
 		)
 		(pin "ST_SENSOR_CS" input
 			(at 92.71 223.52 0)
+			(uuid "e3fbf003-f36b-4b16-a887-f12f073bc358")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3fbf003-f36b-4b16-a887-f12f073bc358")
 		)
 		(pin "ST_SENSOR_CS2" input
 			(at 92.71 226.06 0)
+			(uuid "dd908fe3-3904-4d40-83dd-19b555efe735")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dd908fe3-3904-4d40-83dd-19b555efe735")
 		)
 		(pin "ST_SENSOR__INT1" input
 			(at 92.71 228.6 0)
+			(uuid "fd0b2085-829a-44c2-82cb-2e06df1f3a89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fd0b2085-829a-44c2-82cb-2e06df1f3a89")
 		)
 		(pin "ST_SENSOR_INT2" input
 			(at 92.71 231.14 0)
+			(uuid "be9be5ad-6cf9-4e9b-b09f-71448fbbde48")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be9be5ad-6cf9-4e9b-b09f-71448fbbde48")
 		)
 		(pin "ST_SENSOR_SCK" input
 			(at 92.71 215.9 0)
+			(uuid "a0a05881-3327-4c9e-9cb9-f1d9da1727e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a0a05881-3327-4c9e-9cb9-f1d9da1727e4")
 		)
 		(pin "IIS3DHHCTR_SCK" input
 			(at 92.71 237.49 0)
+			(uuid "125e2572-9ea4-4f53-af44-754bf1924536")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "125e2572-9ea4-4f53-af44-754bf1924536")
 		)
 		(pin "SENSOR_ON" input
 			(at 52.07 222.25 180)
+			(uuid "562591e8-9e05-4cb8-8cdf-70d2696922c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "562591e8-9e05-4cb8-8cdf-70d2696922c6")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2099,6 +2040,10 @@
 	(sheet
 		(at 53.34 30.48)
 		(size 41.91 80.01)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2128,143 +2073,143 @@
 		)
 		(pin "T_CS" input
 			(at 95.25 95.25 0)
+			(uuid "02e03aad-6b9e-4a1c-a16f-c518c34b702b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02e03aad-6b9e-4a1c-a16f-c518c34b702b")
 		)
 		(pin "LCD_SDO" input
 			(at 95.25 68.58 0)
+			(uuid "e3fe2d99-b9d5-4ad2-9ac2-ff4f44463a47")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3fe2d99-b9d5-4ad2-9ac2-ff4f44463a47")
 		)
 		(pin "LCD_SCK" input
 			(at 95.25 66.04 0)
+			(uuid "a2e0a4cd-2537-43ac-a60f-dc12b8597343")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2e0a4cd-2537-43ac-a60f-dc12b8597343")
 		)
 		(pin "LCD_SDI" input
 			(at 95.25 71.12 0)
+			(uuid "eb611aba-d034-4794-81e5-d9f6a930111d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eb611aba-d034-4794-81e5-d9f6a930111d")
 		)
 		(pin "LCD_LED" input
 			(at 95.25 78.74 0)
+			(uuid "4d793acb-f83e-4f76-8e44-180159bae4e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d793acb-f83e-4f76-8e44-180159bae4e1")
 		)
 		(pin "LCD_DC" input
 			(at 95.25 76.2 0)
+			(uuid "1aa794a1-8335-4948-8a2a-07572149d439")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1aa794a1-8335-4948-8a2a-07572149d439")
 		)
 		(pin "LCD_RESET" input
 			(at 95.25 81.28 0)
+			(uuid "c7b0d13b-e36e-42d5-9f87-a9c18dcbdb13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7b0d13b-e36e-42d5-9f87-a9c18dcbdb13")
 		)
 		(pin "LCD_CS" input
 			(at 95.25 73.66 0)
+			(uuid "25252fb2-cbcf-4dc9-b88e-872c498d6f6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "25252fb2-cbcf-4dc9-b88e-872c498d6f6d")
 		)
 		(pin "LCD_ON" input
 			(at 53.34 43.18 180)
+			(uuid "541de913-2282-4f12-8400-48f028102831")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "541de913-2282-4f12-8400-48f028102831")
 		)
 		(pin "_T_IRQ" output
 			(at 95.25 100.33 0)
+			(uuid "be05fa25-2d3e-45fd-a1d9-d75ff446c126")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be05fa25-2d3e-45fd-a1d9-d75ff446c126")
 		)
 		(pin "SD_CS" input
 			(at 95.25 44.45 0)
+			(uuid "225aa607-be59-4f29-94e6-e67ea3cd4837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "225aa607-be59-4f29-94e6-e67ea3cd4837")
 		)
 		(pin "SD_SCK" input
 			(at 95.25 46.99 0)
+			(uuid "771b4c22-38f0-43c0-95ea-d439e13d9891")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "771b4c22-38f0-43c0-95ea-d439e13d9891")
 		)
 		(pin "SD_SDI" input
 			(at 95.25 49.53 0)
+			(uuid "3494fdd2-9217-4dd6-a2e6-630f93d31a8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3494fdd2-9217-4dd6-a2e6-630f93d31a8d")
 		)
 		(pin "SD_SDO" output
 			(at 95.25 52.07 0)
+			(uuid "b3e57050-e71c-44df-9ce0-6dba265245e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3e57050-e71c-44df-9ce0-6dba265245e3")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2277,6 +2222,10 @@
 	(sheet
 		(at 298.45 48.26)
 		(size 50.8 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2306,43 +2255,43 @@
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
 			(at 349.25 59.69 0)
+			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
 			(at 349.25 64.77 0)
+			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
 		)
 		(pin "PA10" bidirectional
 			(at 349.25 69.85 0)
+			(uuid "cd48b7bb-c80b-4310-bf23-96bac319b055")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cd48b7bb-c80b-4310-bf23-96bac319b055")
 		)
 		(pin "USB_OTG_FS_VBUS" output
 			(at 349.25 74.93 0)
+			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2355,6 +2304,10 @@
 	(sheet
 		(at 53.34 158.75)
 		(size 40.64 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2384,33 +2337,33 @@
 		)
 		(pin "GND_ISO" input
 			(at 93.98 194.31 0)
+			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
 		)
 		(pin "+5V_ISO" output
 			(at 93.98 187.96 0)
+			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
 		)
 		(pin "VBATT" input
 			(at 53.34 167.64 180)
+			(uuid "a544fca6-c259-4f85-b494-405b0961e0e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a544fca6-c259-4f85-b494-405b0961e0e7")
 		)
 		(instances
 			(project "l8-kicad"
@@ -2425,4 +2378,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
